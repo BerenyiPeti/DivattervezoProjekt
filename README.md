@@ -4,3 +4,5 @@ Zsófi: Cikkek
 Dani: Tesztkérdések
 Alexa: Kezdőoldal
 
+Határidő: máj. 20
+
