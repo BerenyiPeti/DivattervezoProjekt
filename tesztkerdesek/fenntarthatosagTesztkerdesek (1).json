@@ -1,0 +1,230 @@
+{
+    "ált. isk": [
+        {
+            "Kérdések": "1. A műanyagot milyen színű szelektív kukába gyűjtjük?",
+            "Válaszok1": " - citromsárga",
+            "Válaszok2": " - kék",
+            "Válaszok3": " - zöld"
+        },
+        {
+            "Kérdések": "2. A papírt milyen színű szelektív kukába gyűjtjük?",
+            "Válaszok1": " - kék",
+            "Válaszok2": " - piros",
+            "Válaszok3": " - szürke"
+        },
+        {
+            "Kérdések": "3. Az üveget milyen színű szelektív kukába gyűjtjük?",
+            "Válaszok1": " - zöld",
+            "Válaszok2": " - lila",
+            "Válaszok3": "citromsárga"
+        },
+        {
+            "Kérdések": "4. A fémet milyen színű szelektív kukába gyűjtjük?",
+            "Válaszok1": " - szürke",
+            "Válaszok2": " - kék",
+            "Válaszok3": " - narancssárga"
+        },
+        {
+            "Kérdések": "5. Milyen színűek a szelektív kukák?",
+            "Válaszok1": " - citromsárga, kék, szürke, zöld",
+            "Válaszok2": "- piros, kék, zöld, fekete",
+            "Válaszok3": " - citromsárga, zöld, lila, rózsaszín"
+        },
+        {
+            "Kérdések": "6. A felsorolás között mi a legkörnyezetbarátabb közlekedés?",
+            "Válaszok1": " - séta",
+            "Válaszok2": " - vonat",
+            "Válaszok3": " - autó"
+        },
+        {
+            "Kérdések": "7. A felsorolás között melyik a takarékosabb?",
+            "Válaszok1": " - zuhanyzás",
+            "Válaszok2": " - habfürdő, pancsolás kádban",
+            "Válaszok3": " - fürdűszobából vizipark csinálás"
+        },
+        {
+            "Kérdések": "8. Miket komposztálhatunk?",
+            "Válaszok1": " - zöldség - gyümölcs maradék, tojáshéj",
+            "Válaszok2": " - nagy ágak, fatörzsek, diófalevél",
+            "Válaszok3": " - fém, műanyag, vegyszeres dolgok"
+        },
+        {
+            "Kérdések": "9. Fogmosásnál... ",
+            "Válaszok1": " - elzárom a csapot, ha már nem kell víz",
+            "Válaszok2": " - nem zárom el a csapot, hadd folyjon",
+            "Válaszok3": " - ki tekerem tejlesen, mert miért ne"
+        },
+        {
+            "Kérdések": "10. Közlekedésnél....",
+            "Válaszok1": " - ha lehet biciklizek",
+            "Válaszok2": " - autózom",
+            "Válaszok3": " - tömegközlekedést használok"
+        },
+        {
+            "Kérdések": "11. Az okostelefont...",
+            "Válaszok1": "  - csak 2-3 évente cserélem",
+            "Válaszok2": " - évente cserélem",
+            "Válaszok3": " -  amikor van egy jobb akkor azt rögtön megveszem"
+        }
+    ],
+    "középisk.": [
+        {
+            "Kérdések": "1. Hogyan dobjuk a szelektívbe a műanyagot?",
+            "Válaszok1": " - Tisztán, kimosva",
+            "Válaszok2": " - koszosan",
+            "Válaszok3": " - mindegy"
+        },
+        {
+            "Kérdések": "2. A felsorolás között mi a legkörnyelózetbarátabb közlekedés?",
+            "Válaszok1": " - séta",
+            "Válaszok2": " - vonat",
+            "Válaszok3": " - autó"
+        },
+        {
+            "Kérdések": "3. Ha szemetet látsz eldobva...",
+            "Válaszok1": " - felveszem és kidobom a legközelebb kukába",
+            "Válaszok2": " - ott hagyom",
+            "Válaszok3": " - belerúgok"
+        },
+        {
+            "Kérdések": "4. Mi kerülhet a papír szelektívbe?",
+            "Válaszok1": " - újságok, tejes -gyümölcsleves papírdobozok, könyvek",
+            "Válaszok2": " - hőpapír (nyugta, blokk)",
+            "Válaszok3": " - olajjal/zsíradékkal szennyezett papír"
+        },
+        {
+            "Kérdések": "5. Miket komposztálhatunk?",
+            "Válaszok1": " - zöldség - gyümölcs maradék, tojáshéj",
+            "Válaszok2": " - nagy ágak, fatörzsek, diófalevér",
+            "Válaszok3": " - fém, műanyag, vegyszeres dolgok"
+        },
+        {
+            "Kérdések": "6. Mi a komposzt?",
+            "Válaszok1": " - szerves anyagok lebomlásának a végterméke",
+            "Válaszok2": " - szerves és szervetlen anyagok lebomlásának a végterméke",
+            "Válaszok3": " - szervetlen anyagok lebomlásának a végterméke"
+        },
+        {
+            "Kérdések": "7. A könyveket....",
+            "Válaszok1": "  -kiveszem a könyvtárból/elcserélem",
+            "Válaszok2": " - megveszem drágán a boltban",
+            "Válaszok3": " - elégetem,ha már nem kell"
+        },
+        {
+            "Kérdések": "8. Mi az ökologiai lábnyom?",
+            "Válaszok1": " - Egy mutató, hogy mekkora mértékben éljük föl természetes erőforrásokat.",
+            "Válaszok2": " - Az amikor sárba lépünk és ott marad a cipő talpának a lenyomata.",
+            "Válaszok3": " - Az amikor valaki lápnyomokat hagy az úton"
+        },
+        {
+            "Kérdések": "9. Az okostelefont...",
+            "Válaszok1": "  - csak 2-3 évente cserélem",
+            "Válaszok2": " - évente cserélem",
+            "Válaszok3": " -  amikor van egy jobb akkor azt rögtön megveszem"
+        },
+        {
+            "Kérdések": "10. Hova tegyük az üveget?",
+            "Válaszok1": " - A színes üveghulladékok közé dobjuk a kupak nélküli boros-, pezsgős, sörös- és röviditalos színesüvegeket, természetesen átöblítés után, tisztán.",
+            "Válaszok2": " - csak szimplán kidobjuk",
+            "Válaszok3": "  - A fehérüveg-hulladékok közé csak az olyan elöblített üvegeket dobjuk, amelyek átlátszók. Ilyen például a dunsztosüveg, a tejesüveg, bébiételes üveg stb."
+        },
+        {
+            "Kérdések": "11. Mi a legjobb alternatíva a nejlon zacskókra?",
+            "Válaszok1": " - vászon szatyrok",
+            "Válaszok2": " - papír zacskók",
+            "Válaszok3": " - erősebb műanyagból készült szatyrok"
+        }
+    ],
+    "f. felnőt": [
+        {
+            "Kérdések": "1. Található-e Magyarországon (műanyag) csomagolás mentes bolt?",
+            "Válaszok1": " - Igen, van",
+            "Válaszok2": " - Magyaroszágon nincs, de külföldön van",
+            "Válaszok3": " - Magyaroszágon és külföldön sincs"
+        },
+        {
+            "Kérdések": "2. Hogyan dobjuk a szelektívbe a műanyagot?",
+            "Válaszok1": " - tisztán, kimosva",
+            "Válaszok2": " - koszosan",
+            "Válaszok3": " - mindegy"
+        },
+        {
+            "Kérdések": "3. Ha bővíteni akarod a ruhatárad és mindegy milyen márkájú akkor...",
+            "Válaszok1": " - turkálókban vásárolok",
+            "Válaszok2": " - Online vásárolok",
+            "Válaszok3": " - noname boltokban vásárolok"
+        },
+        {
+            "Kérdések": "4. Mi a legjobb alternatíva a nejlon zacskókra?",
+            "Válaszok1": " - vászon szatyrok",
+            "Válaszok2": " - papír zacskók",
+            "Válaszok3": " - erősebb műanyagból készült szatyrok"
+        },
+        {
+            "Kérdések": "5. A felsorolás között mi a legkörnyelózetbarátabb közlekedés?",
+            "Válaszok1": " - séta",
+            "Válaszok2": " - vonat",
+            "Válaszok3": " - autó"
+        },
+        {
+            "Kérdések": "6. Ha szemetet látsz eldobva...",
+            "Válaszok1": " - felveszem és kidobom a legközelebb kukába",
+            "Válaszok2": " - ott hagyom",
+            "Válaszok3": " - belerúgok"
+        },
+        {
+            "Kérdések": "7. Mi az újrahasznosítás célja?",
+            "Válaszok1": " - A természetes erőforrások lehető legkevesebb felhasználása.",
+            "Válaszok2": " - kevesebb szemét legyen",
+            "Válaszok3": " - mert jól hangzik"
+        },
+        {
+            "Kérdések": "8. Mi kerülhet a papír szelektívbe?",
+            "Válaszok1": " - újságok, tejes -gyümölcsleves papírdobozok, könyvek",
+            "Válaszok2": " - hőpapír (nyugta, blokk)",
+            "Válaszok3": " - olajjal/zsíradékkal szennyezett papír"
+        },
+        {
+            "Kérdések": "9. Mi a komposzt?",
+            "Válaszok1": " - szerves anyagok lebomlásának a végterméke",
+            "Válaszok2": " - szerves és szervetlen anyagok lebomlásának a végterméke",
+            "Válaszok3": " - szervetlen anyagok lebomlásának a végterméke"
+        },
+        {
+            "Kérdések": "10. Miket komposztálhatunk?",
+            "Válaszok1": " - zöldség - gyümölcs maradék, tojáshéj",
+            "Válaszok2": " - nagy ágak, fatörzsek, diófalevér",
+            "Válaszok3": " - fém, műanyag, vegyszeres dolgok"
+        },
+        {
+            "Kérdések": "11. Vásárlásnál",
+            "Válaszok1": " - figyelembe veszem, hogy milyen a csomagolása",
+            "Válaszok2": " - nem törödök, hogy milyen a csomagolása",
+            "Válaszok3": " - nem érdekel, hogy milyen a csomagolása"
+        },
+        {
+            "Kérdések": "12. Ha elmegyek a boltba.....",
+            "Válaszok1": " - csak azt veszem meg amire szükségem van",
+            "Válaszok2": " - mindent megveszek, amit a szemem kíván",
+            "Válaszok3": " - felvásárolom az egész LIDL-t"
+        },
+        {
+            "Kérdések": "13. Mi  a szürkevíz?",
+            "Válaszok": " - olyan szennyezett víz amelyben, szappan vagy mosószer maradványok, kisebb nagyobb szennyeződések vannak.",
+            "Válaszok": " - szürke színű víz",
+            "Válaszok": " - javarészt a vécékben kepződik, olyan  szennyezett vízet értünk alatta, amiben fertőző, egészségre és környezetre veszélyes baktériumok vannak"
+        },
+        {
+            "Kérdések": "14. Mi a feketevíz?",
+            "Válaszok": " - javarészt a vécékben kepződik, olyan szennyezett vízet értünk alatta, amiben fertőző, egészségre és környezetre veszélyes baktériumok vannak",
+            "Válaszok": " - olyan szennyezett víz amelyben, szappan vagy mosószer maradványok, kisebb nagyobb szennyeződések vannak.",
+            "Válaszok": " - feket színű víz"
+        },
+        {
+            "Kérdések": "15. Az okostelefont...",
+            "Válaszok": "  - csak 2-3 évente cserélem",
+            "Válaszok": " - évente cserélem",
+            "Válaszok": " -  amikor van egy jobb akkor azt rögtön megveszem"
+        }
+    ]
+}
