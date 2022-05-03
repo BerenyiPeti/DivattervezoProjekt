@@ -2,41 +2,44 @@
     "kutyak": [
         {
             "nev": "kep1",
-            "eleres": "kuvasz",
-            "id": "fehér"
-            
+            "eleres": "../kepek/jatekok/kep0.jpg",
+            "id": "0"
         },
         {
-            "nev": "Morzsa",
-            "fajta": "Puli",
-            "szin": "fekete",
-            "kor": "2020.02.20",
-            "bunda": "vastag",
-            "oltottsag": true,
-            "kolykokneve": [
-                "elso",
-                "masodik"
-            ],
-            "gazda": {
-                "nev": "Jenő",
-                "kor": 32
-            }
+            "nev": "kep2",
+            "eleres": "../kepek/jatekok/kep1.jpg",
+            "id": "1"
         },
         {
-            "nev": "Dézi",
-            "fajta": "keverék",
-            "szin": "fekete",
-            "kor": "2020.02.20",
-            "bunda": "vékony",
-            "oltottsag": true,
-            "kolykokneve": [
-                "elso",
-                "masodik"
-            ],
-            "gazda": {
-                "nev": "Jenő",
-                "kor": 32
-            }
+            "nev": "kep3",
+            "eleres": "../kepek/jatekok/kep2.jpg",
+            "id": "2"
+        },
+        {
+            "nev": "kep4",
+            "eleres": "../kepek/jatekok/kep3.jpg",
+            "id": "3"
+        },
+        {
+            "nev": "kep5",
+            "eleres": "../kepek/jatekok/kep4.jpg",
+            "id": "4"
+        },
+        {
+            "nev": "kep6",
+            "eleres": "../kepek/jatekok/kep5.jpg",
+            "id": "5"
+        },
+        {
+            "nev": "kep7",
+            "eleres": "../kepek/jatekok/kep6.jpg",
+            "id": "6"
+        },
+        {
+            "nev": "kep8",
+            "eleres": "../kepek/jatekok/kep7.jpg",
+            "id": "7"
         }
+
     ]
 }
