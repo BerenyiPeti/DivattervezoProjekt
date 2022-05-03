@@ -1,3 +1,13 @@
+{ "cikkek": [    {
+      "szerzo": "",
+      "cim": "",
+      "tema":{ "alcim": "", "bekezdes":["A Fenntarthatósági Témahét 2022. április 25. és 29. között kerül megrendezésre, amelyet Emberi Erőforrások Minisztériuma hirdet. Minden hazai és határon túli nevelési-oktatási intézmény  csatlakozhat idén a mi iskolánk is újra belevágott.", "A fenntarthatósági témahét célja, hogy megvédjük Földünket az utókor számára az esetleges Globális felmelegedéstől; vízhiánytól; klíma változástól és csökkenő energiakészlet hiányától. Fontos mindenkiben elmélyíteni ezeket a szemléleteket, hiszen mindenki számára fontos a Földünk, és ha nem vigyázunk, rá hamar tönkre megy.", "A SZÁMALK - Szalézi Technikum és Szakgimnázium az idei Fenntarthatósági héten is részt vesz már 2. alkalommal. Az idei évben több osztály is részt vesz az előkészületekben: Divat-, jelmez- és díszlettervező; Szoftverfejlesztő és tesztelő; Pedagógiai munkatárs; Dekoratőr; Grafikus; Fotográfus és Közművelődési munkatárs diákjai."
+        ]},
+
+      "felsorolas": "",
+      "link": "",
+      "kep": ""
+    },
     {
       "szerzo": "Vera",
       "cim": "Az energiánk 20%-a szélerőművekből fog érkezni",
@@ -8,3 +18,5 @@
       "link": "https://tinyurl.com/2knv9s7t",
       "kep": "kep1.jpg"
     }
+]}
+    
