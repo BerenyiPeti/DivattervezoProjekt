@@ -1,0 +1,27 @@
+.fotarolo, .mezo {
+    border: 1px solid black;
+}
+
+.fotarolo {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.mezo {
+    width: 150px;
+    height: 150;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 100%;
+}
