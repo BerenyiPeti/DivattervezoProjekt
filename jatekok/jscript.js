@@ -83,13 +83,21 @@ const kepek = [
     }
 ]
 
-let kevert = [];
-let felforditott = 0;
-let valasztottKepek = [];
-let parok = 0;
+var kevert = [];
+var felforditott = 0;
+var valasztottKepek = [];
+var parok = 0;
 
 function init() {
+    kevert = [];
+    felforditott = 0;
+    valasztottKepek = [];
+    parok = 0;
     palya();
+    ID("ujJatekGomb").addEventListener("click", init);
+    CLASS("gomb")[0].addEventListener("click", init);
+    CLASS("gomb")[0].addEventListener("click", overlayEltuntet);
+    
 
 }
 
@@ -111,7 +119,7 @@ function felfordit() {
             ID(valasztottKepek[0]).alt = "talált"
             ID(valasztottKepek[1]).alt = "talált"
             parok++;
-            
+
         }
 
         if (parok === 8) {
@@ -159,6 +167,7 @@ function lefordit() {
 
 function palya() {
     let txt = "";
+    //console.log("előtte: " + txt);
     kever();
     for (let index = 0; index < kevert.length; index++) {
         //txt += `<div class="mezo" id="${index}"><img src="${kevert[index].eleres}" alt="kep"></div>`;
@@ -167,10 +176,13 @@ function palya() {
 
     }
 
-    CLASS("fotarolo")[0].innerHTML += txt;
+    //console.log("utána: " + txt);
+    CLASS("fotarolo")[0].innerHTML = txt;
     for (let index = 0; index < kevert.length; index++) {
         ID(index).addEventListener("click", felfordit);
     }
+
+    
 
 }
 
@@ -189,6 +201,10 @@ function kever() {
 
 function ujJatek() {
     //console.log("grat!");
-    
-
+    ID("gyozelem").style.display = "flex";
 }
+
+function overlayEltuntet() {
+    ID("gyozelem").style.display = "none";
+}
+
