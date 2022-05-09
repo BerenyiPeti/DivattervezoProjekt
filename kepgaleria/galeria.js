@@ -1,5 +1,5 @@
 window.addEventListener("load", init);
-window.addEventListener("click", galeria);
+//window.addEventListener("click", galeria);
 
 
 function ID(elem) {
@@ -14,7 +14,7 @@ function $(elem) {
     return document.querySelectorAll(elem);
 }
 
-var kepeim = [
+/*var kepeim = [
     {
         eleres: "../kepek/galeria/kep1.jpg",
         cim: "teszt1",
@@ -40,10 +40,10 @@ var kepeim = [
         cim: "teszt1",
         leiras: "teszt1",
     }
-]
+]*/
 
 var kepindex = 0;
-function galeria(){
+/*function galeria(){
     var txt = "";
     for (let index = 0; index < kepeim.length; index++) {
         txt += `<div class="kep" >
@@ -53,14 +53,12 @@ function galeria(){
     ID("inp").innerHTML=txt;
     for (let index = 0; index < kepeim.length; index++) {
         ID(index).addEventListener("click",kepkivalasztas)
-        CLASS("kep")[index].style.border="5px solid red";
-        CLASS("kep")[index].className+="kepekformazasa";
+        //CLASS("kep")[index].style.border="5px solid red";
+        //CLASS("kep")[index].className+="kepekformazasa";
         $("#inp img")[index].style.borderRadius="50px";
     }
 
-    document.querySelector(".kepek img").style.borderRadius="50px";
-
-}
+}*/
 
 function kepkivalasztas() {
     console.log(event.target.id);
@@ -70,14 +68,31 @@ function kepkivalasztas() {
 }
 
 function init() {
+    fetch("galeria.json")
+        .then((response) => response.json())
+        .then(data => {
+            const kepek = [];
+            for (const key in data.galeria) {
+                let tartalom = "";
+                ID("inp").innerHTML += `<div class="kep" >
+                <img id="${index}" src="${kepeim[index].eleres}" alt="${kepeim[index].cim}" ></div>`;
+                
+                kepek.push(tartalom);
+            }
+            for (let index = 0; index < kepek.length; index++) {
+                CLASS(`kep${index}`).innerHTML = kepek[index];
+            }
+        })
+        .catch((err) => console.log("hiba", err))
+        
     megjelenit();
     galeria();
     ID("balra").addEventListener("click", balra);
     ID("jobbra").addEventListener("click", jobbra);
 }
 function megjelenit() {
-    ID("kivalasztott").src = kepeim[kepindex].eleres;
-    ID("kivalasztott").alt = kepeim[kepindex].cim;
+    ID("kivalasztott").src = kepek[kepindex].eleres;
+    ID("kivalasztott").alt = kepek[kepindex].cim;
 
 }
 function balra() {

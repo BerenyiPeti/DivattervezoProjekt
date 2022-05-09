@@ -48,3 +48,23 @@ section img {
     padding: 10px;
     background-color: pink;
 }
+
+@media screen and (max-width:600px){
+    main {
+        max-width: 500px;
+    }
+
+    section div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:300px){
+    main {
+        max-width: 300px;
+    }
+
+    section div{
+        width: 80%;
+    }
+}

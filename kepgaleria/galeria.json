@@ -1,0 +1,45 @@
+{
+    "kepek": [
+        {
+            "nev": "kep01",
+            "eleres": "../kepek/jatekok/kep0.jpg",
+            "leiras": "kep01"
+        },
+        {
+            "nev": "kep02",
+            "eleres": "../kepek/jatekok/kep1.jpg",
+            "leiras": "kep02"
+        },
+        {
+            "nev": "kep03",
+            "eleres": "../kepek/jatekok/kep2.jpg",
+            "leiras": "kep03"
+        },
+        {
+            "nev": "kep04",
+            "eleres": "../kepek/jatekok/kep3.jpg",
+            "leiras": "kep04"
+        },
+        {
+            "nev": "kep05",
+            "eleres": "../kepek/jatekok/kep4.jpg",
+            "leiras": "kep05"
+        },
+        {
+            "nev": "kep06",
+            "eleres": "../kepek/jatekok/kep5.jpg",
+            "leiras": "kep06"
+        },
+        {
+            "nev": "kep07",
+            "eleres": "../kepek/jatekok/kep6.jpg",
+            "leiras": "kep07"
+        },
+        {
+            "nev": "kep08",
+            "eleres": "../kepek/jatekok/kep7.jpg",
+            "leiras": "kep08"
+        }
+
+    ]
+}
