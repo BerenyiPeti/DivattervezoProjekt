@@ -80,3 +80,63 @@ function init() {
 
 
 */
+
+
+
+function ID(elem) {
+    return document.getElementById(elem);
+}
+function $(elem) {
+    return document.querySelectorAll(elem);
+}
+
+function CLASS(elem) {
+    return document.getElementsByClassName(elem);
+}
+
+window.addEventListener("load", init);
+
+var txt = "";
+function init() {
+
+    var tomb = [];
+    fetch('cikkek.json')
+        .then(res => res.json())
+        .then((out) => {
+            console.log('Output: ', out);
+
+            tomb = out.cikkek;
+            /* console.log(tomb);
+        
+ */            megjelenit(tomb);
+
+        }).catch(err => console.error(err));
+    $('article')[0].innerHTML = txt
+}
+
+
+
+
+
+
+function megjelenit(tomb) {
+
+    tomb.forEach(element => {
+
+        for (const key in tomb) {
+            txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
+
+        }
+    }
+    )
+    document.querySelectorAll('article')[0].innerHTML = txt
+        
+};
+
+
+
+
+
+
+
+
