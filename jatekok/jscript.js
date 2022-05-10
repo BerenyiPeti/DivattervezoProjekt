@@ -175,7 +175,7 @@ function lefordit() {
         felforditott = 0;
         for (let index = 0; index < kevert.length; index++) {
             if (ID(index).alt === "felforditott") {
-                ID(index).src = "../kepek/jatekok/hatter.jpg";
+                ID(index).src = "../kepek/jatekok/kartyahatter.jpg";
                 ID(index).alt = "leforditott";
 
             }
@@ -197,8 +197,8 @@ function palya() {
     kever();
     for (let index = 0; index < kevert.length; index++) {
         //txt += `<div class="mezo" id="${index}"><img src="${kevert[index].eleres}" alt="kep"></div>`;
-        //<img src="../kepek/jatekok/hatter.jpg" alt="${index}">
-        txt += `<div class="mezo" id="mezo${index}"><img src="../kepek/jatekok/hatter.jpg" id="${index}"alt="leforditott"></div>`;
+        //<img src="../kepek/jatekok/kartyahatter.jpg" alt="${index}">
+        txt += `<div class="mezo" id="mezo${index}"><img src="../kepek/jatekok/kartyahatter.jpg" id="${index}"alt="leforditott"></div>`;
 
     }
 
