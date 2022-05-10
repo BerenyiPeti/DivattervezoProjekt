@@ -44,3 +44,39 @@ function mutat(cikkek) {
     }  
   });
 }
+
+
+/*
+
+function ID(elem) {
+    return document.getElementById(elem);
+}
+function $(elem) {
+    return document.querySelectorAll(elem);
+}
+
+function CLASS(elem) {
+    return document.getElementsByClassName(elem);
+}
+
+window.addEventListener("load", init);
+
+
+function init() {
+    var txt = "";
+    fetch('cikkek.json')
+        .then(res => res.json())
+        .then((out) => {
+            console.log('Output: ', out);
+            
+                /* for (const key in out) {
+                    txt += `<span>${key}:</span><span> ${out[key]}</span>`
+
+                } 
+            txt += out;
+        }).catch(err => console.error(err));
+    $('article')[0].innerHTML = txt
+}
+
+
+*/
