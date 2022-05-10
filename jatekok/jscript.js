@@ -1,10 +1,10 @@
 /*window.addEventListener("load", init);
 
 function init() {
-    megjelenit;
+    jsonHivas;
 }
 
-function megjelenit() {
+function jsonHivas() {
     fetch("kepek.json")
         .then((response) => response.json())
         .then((data) =>{
@@ -40,7 +40,7 @@ function QSA(elem) {
 }
 
 
-const kepek = [
+/*const kepek = [
     {
         nev: "kep1",
         eleres: "../kepek/jatekok/kep0.jpg",
@@ -81,24 +81,50 @@ const kepek = [
         eleres: "../kepek/jatekok/kep7.jpg",
         id: "7"
     }
-]
+]*/
 
+//var kepek = [];
+
+const kepek = [];
 var kevert = [];
 var felforditott = 0;
 var valasztottKepek = [];
 var parok = 0;
 
 function init() {
+    kepek.splice(0);
     kevert = [];
     felforditott = 0;
     valasztottKepek = [];
     parok = 0;
-    palya();
+    jsonHivas();
+    console.log(kepek);
     ID("ujJatekGomb").addEventListener("click", init);
     CLASS("gomb")[0].addEventListener("click", init);
     CLASS("gomb")[0].addEventListener("click", overlayEltuntet);
     
+    
+}
 
+
+
+function jsonHivas() {
+    fetch("kepek.json")
+        .then((response) => response.json())
+        .then((data) =>{
+            //console.log(data);
+            //console.log(data.kepek);
+            beszur(data.kepek);
+        })
+        .catch((err) => console.log("hiba", err))
+}
+
+function beszur(tomb) {
+    tomb.forEach(element => {
+    kepek.push(element)
+    });
+    palya();
+    
 }
 
 function felfordit() {
@@ -122,7 +148,7 @@ function felfordit() {
 
         }
 
-        if (parok === 8) {
+        if (parok === 6) {
             ujJatek();
         }
         console.log("párok: " + parok);
