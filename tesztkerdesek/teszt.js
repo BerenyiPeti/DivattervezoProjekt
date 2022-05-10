@@ -1,7 +1,17 @@
-window.addEventListener("load", init);
+/*window.addEventListener("load", init);*/
 
 function init() {
-    kiirKepek()
+    const element = ID("valasztas");
+    element.remove();
+    ID("altsuli").addEventListener('click',function(){
+        JsonBeolvas(altsuli)
+    })
+    ID("kozsuli").addEventListener('click',function(){
+        JsonBeolvas(kozsuli)
+    })
+    ID("felnot").addEventListener('click',function(){
+        JsonBeolvas(felnot)
+    })
 }
 
 function ID(elem) {
@@ -11,18 +21,38 @@ function ID(elem) {
 function CLASS(elem) {
     return document.getElementsByClassName(elem)
 }
-
 function $(elem) {
     return document.querySelectorAll(elem)
 }
+const altsuli = [];
 
-var jsonData = 'teszt.json';
 
-function kiirKepek() {
+function JsonBeolvas() {
+    console.log("Meg jo")
+    fetch("kerdesek.json")
+        .then((response) => response.json())
+        .then((data) => {
+            beszur(data.altsuli, altsuli);
+        })
+        .catch((err) => console.log("Beolvasási hiba", err))
+    console.log(altsuli)
+}
+
+function beszur(tomb, melyiktomb) {
+    tomb.forEach(element => {
+        melyiktomb.push(element)
+        console.log();
+    });
+    KiirTeszt(altsuli)
+}
+
+
+
+function KiirTeszt(lista) {
     var txt = " ";
-    for (let i = 0; i < jsonData.felnot.length; i++) {
-        txt = txt + "<div>" + "<h3>" + kepek[i].cim + "</h3>" + "<img src='" + kepek[i].eleresiut + "' class='kepek' id='" + i + "' alt='kép'/>" +
-            "<p>" + kepek[i].leírás + "</p> </div>"
+    console.log(lista)
+    for (let i = 0; i < lista.length; i++) {
+        txt = txt + "<div>" + "<h3>" + lista[i].Kerdesek + "</h3>"
     }
     ID("tesztes").innerHTML = txt;
 
