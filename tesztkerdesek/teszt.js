@@ -1,18 +1,19 @@
-/*window.addEventListener("load", init);*/
+window.addEventListener("load", init);
 
 function init() {
-    const element = ID("valasztas");
-    element.remove();
-    ID("altsuli").addEventListener('click',function(){
-        JsonBeolvas(altsuli)
+    const altsuli=ID("altsuli")
+    const kozsuli=ID("kozsuli")
+    const felnot=ID("felnot")
+    altsuli.addEventListener('click',function(){
+        JsonBeolvas("altsuli")
     })
-    ID("kozsuli").addEventListener('click',function(){
-        JsonBeolvas(kozsuli)
+    kozsuli.addEventListener('click',function(){
+        JsonBeolvas("kozsuli")
     })
-    ID("felnot").addEventListener('click',function(){
-        JsonBeolvas(felnot)
+    felnot.addEventListener('click',function(){
+        JsonBeolvas("felnot")
     })
-}
+}  
 
 function ID(elem) {
     return document.getElementById(elem);
@@ -24,18 +25,20 @@ function CLASS(elem) {
 function $(elem) {
     return document.querySelectorAll(elem)
 }
-const altsuli = [];
+var TesztKerdes = [];
 
 
-function JsonBeolvas() {
+function JsonBeolvas(koroszt) {
     console.log("Meg jo")
     fetch("kerdesek.json")
         .then((response) => response.json())
         .then((data) => {
-            beszur(data.altsuli, altsuli);
+            console.log(data,koroszt)
+            beszur(data[koroszt], TesztKerdes);
+
         })
         .catch((err) => console.log("Beolvasási hiba", err))
-    console.log(altsuli)
+    console.log(TesztKerdes)
 }
 
 function beszur(tomb, melyiktomb) {
@@ -43,7 +46,9 @@ function beszur(tomb, melyiktomb) {
         melyiktomb.push(element)
         console.log();
     });
-    KiirTeszt(altsuli)
+    const element = ID("valasztas");
+    element.remove();
+    KiirTeszt(TesztKerdes)
 }
 
 
