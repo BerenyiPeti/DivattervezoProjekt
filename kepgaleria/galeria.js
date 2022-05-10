@@ -14,103 +14,77 @@ function $(elem) {
     return document.querySelectorAll(elem);
 }
 
-/*var kepeim = [
-    {
-        eleres: "../kepek/galeria/kep1.jpg",
-        cim: "teszt1",
-        leiras: "teszt1",
-    },
-    {
-        eleres: "../kepek/galeria/kep2.jpg",
-        cim: "teszt2",
-        leiras: "teszt2",
-    },
-    {
-        eleres: "../kepek/galeria/kep1.jpg",
-        cim: "teszt1",
-        leiras: "teszt1",
-    },
-    {
-        eleres: "../kepek/galeria/kep2.jpg",
-        cim: "teszt2",
-        leiras: "teszt2",
-    },
-    {
-        eleres: "../kepek/galeria/kep1.jpg",
-        cim: "teszt1",
-        leiras: "teszt1",
-    }
-]*/
-
+const kepek = [];
 var kepindex = 0;
-/*function galeria(){
-    var txt = "";
-    for (let index = 0; index < kepeim.length; index++) {
-        txt += `<div class="kep" >
-        <img id="${index}" src="${kepeim[index].eleres}" alt="${kepeim[index].cim}" ></div>`
-        
-    }
-    ID("inp").innerHTML=txt;
-    for (let index = 0; index < kepeim.length; index++) {
-        ID(index).addEventListener("click",kepkivalasztas)
-        //CLASS("kep")[index].style.border="5px solid red";
-        //CLASS("kep")[index].className+="kepekformazasa";
-        $("#inp img")[index].style.borderRadius="50px";
-    }
-
-}*/
-
-function kepkivalasztas() {
-    console.log(event.target.id);
-    kepindex=Number(event.target.id);
-    megjelenit();
-
-}
 
 function init() {
-    fetch("galeria.json")
-        .then((response) => response.json())
-        .then(data => {
-            const kepek = [];
-            for (const key in data.galeria) {
-                let tartalom = "";
-                ID("inp").innerHTML += `<div class="kep" >
-                <img id="${index}" src="${kepeim[index].eleres}" alt="${kepeim[index].cim}" ></div>`;
-                
-                kepek.push(tartalom);
-            }
-            for (let index = 0; index < kepek.length; index++) {
-                CLASS(`kep${index}`).innerHTML = kepek[index];
-            }
-        })
-        .catch((err) => console.log("hiba", err))
-        
-    megjelenit();
-    galeria();
+    beolvas();
+
+   // kepkivalasztas();
     ID("balra").addEventListener("click", balra);
     ID("jobbra").addEventListener("click", jobbra);
 }
-function megjelenit() {
-    ID("kivalasztott").src = kepek[kepindex].eleres;
-    ID("kivalasztott").alt = kepek[kepindex].cim;
+
+function beolvas() {
+    fetch("galeria.json")
+        .then((response) => response.json())
+        .then(data => {
+            console.log(data);
+            console.log(data.kepek);
+            beszur(data.kepek);
+        })
+        .catch((err) => console.log("hiba", err))
+
 
 }
-function balra() {
-    if(kepindex <= 0){
-        kepindex = kepeim.length-1;
+
+function megjelenit(id) {
+
+    ID("kivalasztott").src = kepek[id].eleres;
+    ID("kivalasztott").alt = kepek[id].cim;
+}
+
+function beszur(tomb) {
+    let txt = "";
+    for (let index = 0; index < tomb.length; index++) {
+        txt += `<div class="kep" >
+        <img id="${index}" src="${tomb[index].eleres}" alt="${tomb[index].cim}" ></div>`
+        kepek.push(tomb[index]);
     }
-    else{
+
+    ID("inp").innerHTML = txt;
+    for (let index = 0; index < kepek.length ; index++) {
+        ID(index).addEventListener("click", function () { kepkivalasztas(index) });
+        //$("#inp img")[index].style.borderRadius="50px";
+    }
+    megjelenit(0);
+}
+
+
+
+function kepkivalasztas(id) {
+    console.log(id);
+    kepindex = Number(id);
+    megjelenit(id);
+
+}
+
+function balra() {
+    if (kepindex <= 0) {
+        kepindex = kepek.length - 1;
+    }
+    else {
         kepindex -= 1;
     }
     console.log(kepindex);
     megjelenit(kepindex);
 }
 function jobbra() {
-    if(kepindex >= kepeim.length-1){
+    if (kepindex >= kepek.length - 1) {
         kepindex = 0;
     }
-    else{
-        kepindex ++;
+    else {
+        kepindex++;
     }
     console.log(kepindex);
     megjelenit(kepindex)
