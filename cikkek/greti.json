@@ -1,0 +1,18 @@
+{
+    "szerzo": "Gréti",
+    "cimek": ["Mi az a TeSzedd!?", "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.", "KERT-KÓSTOLGATÓ PÁLYÁZAT"],
+    "tema":{ "alcimek": "", "bekezdes":["A TeSzedd! – Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket."],
+    "kep":"kepek/cikkek/teszedd/kep1.jpg.jpg"}
+},
+  {
+    "szerzo": "Gréti",
+    "cimek": ["VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.", "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.", "KERT-KÓSTOLGATÓ PÁLYÁZAT"],
+    "tema":{ "alcimek": "", "bekezdes":["A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm."],
+      "kep":"kepek/cikkek/teszedd/kep2.jpg"}
+    },
+  {
+    "szerzo": "Gréti",
+    "cimek": ["KERT-KÓSTOLGATÓ PÁLYÁZAT"],
+    "tema":{ "alcimek": "", "bekezdes":["A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig"],
+      "kep":"kepek/cikkek/teszedd/kep3.jpg"}
+    }

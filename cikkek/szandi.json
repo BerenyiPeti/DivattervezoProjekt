@@ -1,0 +1,12 @@
+    
+      {
+        "szerzo": "Szandi",
+        "cimek": ["Hulladék mentes vásárlás (lol nyelvtan)"],
+        "elso":{ "cim": ["Csomagolás nélküli vásárlás Magyarországon"], "kep":"kepek/cikkek/hulladek_mentes_vasarlas/adagoló.jpg", "bekezdes":["Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.  Ezekben a boltokba a vásárló saját üvegedényekkel, tárolóeszközökkel érkezik, és azokban tudja haza vinni a megvásárlandó termékeket. Ez nagyban elősegíti a hulladék termelés visszafogását."]},
+        
+        
+        "masodik":{ "cim": "Magyar példakép", "bekezdes":["A magyar hulladékmentes mozgalom egyik kiemelkedő alakja Tóth Andi, aki mások inspirálása érdekében létrehozta a Háztartásom hulladék nélkül nevű blogját. A környezetbarát üzletek a fővárosba koncentrálódtak, de emellett az ország számos nagyvárosában és szinte az összes régiójában találni néhány boltot. Nyílt csomagolásmentes bolt Orosházán, Hajdúnánáson és Berettyóújfaluban is."]},
+        
+        "harmadikk":{ "cim": "Mit is találhatunk egy ilyen boltban?", "kep":"kepek/cikkek/hulladek_mentes_vasarlas/fémszívószál.jpg", "bekezdes":["Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál."]}
+
+      }
