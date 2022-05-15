@@ -1,0 +1,28 @@
+#jatekok2 img {
+    border: 1px solid black;
+}
+
+#jatekok2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#jatekok2 .tarolo {
+    border: 1px solid black;
+}
+
+#jatekok2 #szemetTarolo {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+#jatekok2 #szemetTarolo img{
+    width: 20%;
+
+}
+
+
+

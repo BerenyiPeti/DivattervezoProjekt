@@ -234,3 +234,5 @@ function overlayEltuntet() {
     ID("gyozelem").style.display = "none";
 }
 
+
+
