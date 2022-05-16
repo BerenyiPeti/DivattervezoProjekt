@@ -1,0 +1,21 @@
+.kozos ul li{
+    list-style-type: none;
+
+}
+
+.kozos nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+
+}
+
+.kozos nav {
+    width: 800px;
+    height: 50px;
+    background-color: bisque;
+    margin: auto;
+}
+
