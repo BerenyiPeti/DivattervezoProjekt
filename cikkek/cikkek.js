@@ -121,13 +121,13 @@ function init() {
 
 function megjelenit(tomb) {
 
-    tomb.forEach(element => {
 
-        for (const key in tomb) {
+
+     /*    for (const key in tomb) {
             txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
 
 
-        }
+        } */
         tomb.forEach(function (item, key) {
 
             txt += item.szerzo+item.bekezdes+item.tema;
@@ -136,8 +136,8 @@ function megjelenit(tomb) {
             
         });
     
-    }
-    )
+    
+    
     document.querySelectorAll('article')[0].innerHTML = txt
         
 };
