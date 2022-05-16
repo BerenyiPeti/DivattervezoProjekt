@@ -4,25 +4,25 @@
             "nev": "szemet0",
             "eleres": "../kepek/jatekok/szemet0.png",
             "id": "0",
-            "tipus": "színesüveg"
+            "tipus": "zoldkuka"
         },
         {
             "nev": "szemet1",
             "eleres": "../kepek/jatekok/szemet1.png",
             "id": "1",
-            "tipus": "papír"
+            "tipus": "kekkuka"
         },
         {
             "nev": "szemet2",
             "eleres": "../kepek/jatekok/szemet2.png",
             "id": "2",
-            "tipus": "feherüveg"
+            "tipus": "feherkuka"
         },
         {
             "nev": "szemet3",
             "eleres": "../kepek/jatekok/szemet3.png",
             "id": "3",
-            "tipus": "műanyag"
+            "tipus": "sargakuka"
         }
     ]
 }
