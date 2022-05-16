@@ -21,7 +21,7 @@ Az oldal tartalmát JSON formátumú fájlból olvassuk be, és jelenítjük meg
 Az oldal általános felépítése:
  */
 
-   
+/*    
 window.addEventListener("load", function() {
 
 fetch("cikkek.json")
@@ -45,7 +45,7 @@ function mutat(cikkek) {
   });
 }
 
-
+ */
 /*
 
 function ID(elem) {
@@ -111,7 +111,7 @@ function init() {
  */            megjelenit(tomb);
 
         }).catch(err => console.error(err));
-    $('article')[0].innerHTML = txt
+   
 }
 
 
@@ -126,7 +126,16 @@ function megjelenit(tomb) {
         for (const key in tomb) {
             txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
 
+
         }
+        tomb.forEach(function (item, key) {
+
+            txt += item.szerzo+item.bekezdes+item.tema;
+            /* console.log(key); */
+
+            
+        });
+    
     }
     )
     document.querySelectorAll('article')[0].innerHTML = txt
