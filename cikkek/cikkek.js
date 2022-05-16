@@ -1,18 +1,3 @@
-
-/* Cikkek
-A témával kapcsolatosan cikkek készülnek, melyek tartalmazhatják a következő elemeket: 
-•	cikk főcíme - kötelező
-•	alcím
-•	bekezdés – legalább 1 db
-•	kép
-•	felsorolás 
-Az oldal tartalmát JSON formátumú fájlból olvassuk be, és jelenítjük meg az oldalon. 
-Az oldal általános felépítése:
- */
-
-   
-window.addEventListener("load", init);
-
 function ID(elem) {
   return document.getElementById(elem);
 }
@@ -25,49 +10,142 @@ function CLASS(elem) {
 }
 
 
-const cikkek;
+/* Cikkek
+A témával kapcsolatosan cikkek készülnek, melyek tartalmazhatják a következő elemeket: 
+•	cikk főcíme - kötelező
+•	alcím
+•	bekezdés – legalább 1 db
+•	kép
+•	felsorolás 
+Az oldal tartalmát JSON formátumú fájlból olvassuk be, és jelenítjük meg az oldalon. 
+Az oldal általános felépítése:
+ */
 
-function init () {
+/*    
+window.addEventListener("load", function() {
 
-for (let index = 0; index < 2; index++) {
+fetch("cikkek.json")
+.then((response) => response.json())
+.then((data) => {
+  console.log(data);
+  console.log(data.cikkek);
+  mutat(data.cikkek);
+})
+.catch((err) => console.log("Nem bug, ez feature",err));
+});
+
+function mutat(cikkek) {
+
+  let txt = "";
+  cikkek.forEach((cikkek) => {
+    txt += "<ul>";
+    for (const key in cikkek) {
+      console.log(key, cikkek[key]);
+    }  
+  });
+}
+
+ */
+/*
+
+function ID(elem) {
+    return document.getElementById(elem);
+}
+function $(elem) {
+    return document.querySelectorAll(elem);
+}
+
+function CLASS(elem) {
+    return document.getElementsByClassName(elem);
+}
+
+window.addEventListener("load", init);
 
 
-    cikkek = {
+function init() {
+    var txt = "";
+    fetch('cikkek.json')
+        .then(res => res.json())
+        .then((out) => {
+            console.log('Output: ', out);
+            
+                /* for (const key in out) {
+                    txt += `<span>${key}:</span><span> ${out[key]}</span>`
 
-        "szerzo": "",
-        "cim": "Az energiánk 20%-a szélerőművekből fog érkezni",
-        "tema": 
-            {"alcim": " ", 
-            "bekezdes": 
-                    "A szélenergia ipar legalább olyan gyorsan növekszik, mint a napelem ipar, ha nem gyorsabban.  Becslések szerint 2030-ra globális szinten az energia 20%-a szélerőművekből fog származni.",
-                    "A technológia ugyan drága, és sokkal nagyobb mértékű beruházásokra van szükség, mint a napelemes befektetéseknél, de a szélenergia hosszútávú előnyei sokkal kecsegtetőbbek. Ha az átállás sikeres lenne  az azt jelentené, hogy évente 3,6 milliárd tonnával kevesebb széndioxidot engednénk a levegőbe.",
-                    "Kína az egyik legkiemelkedőbb vezető ország, ha szélenergiáról van szó. Tavaly 17%-ra növelték a szélenergiából befolyó energia mennyiségét az országban, és jelenleg is további bővítéseket terveznek, még idén. Ezen kívül már született megegyezés abban, hogy 1.000 szénbányát fognak bezárni országszerte, ezzel is elősegítve a megújuló energiaforrásokba történő befektetéseket.",
-                    "Az jó ügy édekében Kínának és még sok más országnak teljesen át kell alakítania a hálózat infrastruktúráját, hogy teljesen ki tudják használni a megújuló energiaforrásokat."}
-                }'      
-            "felsorolas": "", 
-            "link": "https://www.tisztajovo.hu/megujulo-energiaforrasok/2016/10/19/az-energiank-20-a-szeleromuvekbol-fog-erkezni",
-            "kep":""
-       },{
+                } 
+            txt += out;
+        }).catch(err => console.error(err));
+    $('article')[0].innerHTML = txt
+}
 
-        szerzo: "",
-        cim: "",
-        tema: "",
-                [{alcim: "", 
-                bekezdes: "",
-                felsorolas:"", 
-                link: "",
-                kep:""
+
+*/
+
+
+
+function ID(elem) {
+    return document.getElementById(elem);
+}
+function $(elem) {
+    return document.querySelectorAll(elem);
+}
+
+function CLASS(elem) {
+    return document.getElementsByClassName(elem);
+}
+
+window.addEventListener("load", init);
+
+var txt = "";
+function init() {
+
+    var tomb = [];
+    fetch('cikkek.json')
+        .then(res => res.json())
+        .then((out) => {
+            console.log('Output: ', out);
+
+            tomb = out.cikkek;
+            /* console.log(tomb);
+        
+ */            megjelenit(tomb);
+
+        }).catch(err => console.error(err));
+   
+}
+
+
+
+
+
+
+function megjelenit(tomb) {
+
+    tomb.forEach(element => {
+
+        for (const key in tomb) {
+            txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
+
+
+        }
+        tomb.forEach(function (item, key) {
+
+            txt += item.szerzo+item.bekezdes+item.tema;
+            /* console.log(key); */
+
+            
+        });
     
- 
-    },{
-        szerzo: "",
-        cim: "",
-        tema: 
-            [{alcim: "", 
-            bekezdes: "",  
-            felsorolas:"",
-            link: "", 
-            kep:"" }]
-
-    };
+    }
+    )
+    document.querySelectorAll('article')[0].innerHTML = txt
+        
 };
+
+
+
+
+
+
+
+
