@@ -14,7 +14,11 @@ article img{
 }
 
 #inp img {
-    padding: 5px;
+    border: 2px solid black;
+}
+
+#kivalasztott {
+    border: 1px solid black;
 }
 
 .container{
@@ -45,12 +49,6 @@ section img {
     width: 100%;
 }
 
-.kepekformazasa {
-    border: 2px solid green;
-    padding: 10px;
-    background-color: pink;
-}
-
 @media screen and (max-width:600px){
     main {
         max-width: 500px;
@@ -59,6 +57,11 @@ section img {
     section div{
         width: 50%;
     }
+    
+    #inp img {
+        border: 1px solid black;
+    }
+    
 }
 
 @media screen and (max-width:300px){
