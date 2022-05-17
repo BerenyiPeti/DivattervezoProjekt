@@ -77,11 +77,13 @@ function KiirTeszt(lista) {
         score = 0;
         answers = document.querySelectorAll('.correct');
         for (element in answers) {
-            answer = answers[element]
-            if (answer.lastElementChild.checked) {
+            console.log(element)
+            let answer = answers[element]
+            if (answer.querySelector('input')) {
                 score += 1
+                console.log(score)
             }
         }
-        alert("Score: " + score)
+        console.log(score)
     });
 }
