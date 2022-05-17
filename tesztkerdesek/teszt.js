@@ -2,19 +2,19 @@ window.addEventListener("load", init);
 
 function init() {
     const altsuli = ID("altsuli")
-    const kozsuli = ID("kozsuli")
-    const felnot = ID("felnot")
-    altsuli.addEventListener('click', function() {
-        JsonBeolvas("altsuli")
-    })
-    kozsuli.addEventListener('click', function() {
-        JsonBeolvas("kozsuli")
-    })
-    felnot.addEventListener('click', function() {
-        JsonBeolvas("felnot")
-    })
+    JsonBeolvas("altsuli")
+//    const kozsuli = ID("kozsuli")
+//    const felnot = ID("felnot")
+//    altsuli.addEventListener('click', function() {
+//        JsonBeolvas("altsuli")
+//    })
+//    kozsuli.addEventListener('click', function() {
+//        JsonBeolvas("kozsuli")
+//    })
+//    felnot.addEventListener('click', function() {
+//        JsonBeolvas("felnot")
+//    })
 }
-
 function ID(elem) {
     return document.getElementById(elem);
 }
@@ -76,10 +76,11 @@ function KiirTeszt(lista) {
         element.classList.add("show-answers");
         score = 0;
         answers = document.querySelectorAll('.correct');
+        console.log(answers)
         for (element in answers) {
             console.log(element)
             let answer = answers[element]
-            if (answer.querySelector('input')) {
+            if (answer.querySelector('input').checked) {
                 score += 1
                 console.log(score)
             }
