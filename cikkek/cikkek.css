@@ -1,0 +1,31 @@
+article p {
+    
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategrey;
+    
+}
+
+article h1 {
+    
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+article {
+  
+    background-color: ghostwhite;
+}
+
+article li {
+    color: blue;
+    display: block;
+}
+
+article h2 {
+    color: red;
+}
+
+main {max-width: 800px; margin: auto;}
+section {margin: 10px; padding: 5px;}

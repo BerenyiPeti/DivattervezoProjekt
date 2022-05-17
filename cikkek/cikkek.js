@@ -1,12 +1,12 @@
 function ID(elem) {
-  return document.getElementById(elem);
+    return document.getElementById(elem);
 }
 function $(elem) {
-  return document.querySelectorAll(elem);
+    return document.querySelectorAll(elem);
 }
 
 function CLASS(elem) {
-  return document.getElementsByClassName(elem);
+    return document.getElementsByClassName(elem);
 }
 
 
@@ -23,7 +23,6 @@ Az oldal általános felépítése:
 
 /*    
 window.addEventListener("load", function() {
-
 fetch("cikkek.json")
 .then((response) => response.json())
 .then((data) => {
@@ -33,9 +32,7 @@ fetch("cikkek.json")
 })
 .catch((err) => console.log("Nem bug, ez feature",err));
 });
-
 function mutat(cikkek) {
-
   let txt = "";
   cikkek.forEach((cikkek) => {
     txt += "<ul>";
@@ -44,24 +41,18 @@ function mutat(cikkek) {
     }  
   });
 }
-
  */
 /*
-
 function ID(elem) {
     return document.getElementById(elem);
 }
 function $(elem) {
     return document.querySelectorAll(elem);
 }
-
 function CLASS(elem) {
     return document.getElementsByClassName(elem);
 }
-
 window.addEventListener("load", init);
-
-
 function init() {
     var txt = "";
     fetch('cikkek.json')
@@ -71,14 +62,11 @@ function init() {
             
                 /* for (const key in out) {
                     txt += `<span>${key}:</span><span> ${out[key]}</span>`
-
                 } 
             txt += out;
         }).catch(err => console.error(err));
     $('article')[0].innerHTML = txt
 }
-
-
 */
 
 
@@ -111,7 +99,7 @@ function init() {
  */            megjelenit(tomb);
 
         }).catch(err => console.error(err));
-   
+
 }
 
 
@@ -121,25 +109,71 @@ function init() {
 
 function megjelenit(tomb) {
 
+    tomb.forEach(element => {
 
 
-     /*    for (const key in tomb) {
-            txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
+        for (const key in element) {
 
 
-        } */
-        tomb.forEach(function (item, key) {
 
-            txt += item.szerzo+item.bekezdes+item.tema;
-            /* console.log(key); */
 
-            
-        });
-    
-    
-    
-    document.querySelectorAll('article')[0].innerHTML = txt
-        
+            if (key.includes("szerzo")) {
+                
+                txt += `<section><span>${element[key]}</span></section>`
+                document.querySelectorAll('article p')[0].innerHTML = txt
+                }
+
+            if (key.includes("cimek")) {
+                txt += `<section><span><b>${element[key]}</b></span></section>`
+                /* txt += key  */
+               /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
+
+            }
+            if (key.includes("tema")) {
+                console.log(element[key])
+
+                for (const key2 in element[key]) {
+console.log(key2);
+                  /*   txt = ""; */
+                    txt += `<span>${element[key]}</span>`
+
+                    if (key2.includes("felsorolas")) {
+                        txt += "<ul>"
+                        txt += `<li><i>${element[key][key2]}</i></li>`
+                        /* document.querySelectorAll('article li')[0].innerHTML = txt */
+                        txt += "</ul>"
+                    
+                    }
+                    if (key2.includes("bekezdes")) {
+                        txt += `<section><span> ${element[key][key2]}</span></section>`
+                      document.querySelectorAll('article p')[0].innerHTML = txt 
+                        
+                    }
+                    if (key2.includes("kep")) {
+                        txt += `<section><span> ${element[key][key2]}</span></section>`
+                        document.querySelectorAll('article img')[0].innerHTML = txt 
+                        
+                    }
+
+                    
+
+
+
+                }
+            }
+
+
+
+
+
+        }
+
+
+
+
+    }
+    )
+
 };
 
 
@@ -147,5 +181,25 @@ function megjelenit(tomb) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         tomb.forEach(function (item, key) {
+  
+              txt += item.szerzo+item.bekezdes+item.tema;
+               console.log(key); 
+  
+              
+          });*/
 
 
