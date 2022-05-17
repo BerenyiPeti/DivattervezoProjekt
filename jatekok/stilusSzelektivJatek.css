@@ -40,6 +40,7 @@
 }
 
 #jatekok2 #kezdoKep{
+    position: fixed;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -52,9 +53,19 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.5); 
     z-index: 2; 
+    font-size: 25px;
+}
+
+#jatekok2 #kezdoKep ul li {
+    list-style-type: none;
+}
+
+#jatekok2 #kezdoKep ul {
+    padding: 0px;
 }
 
 #jatekok2 #jatekVege {
+    position: fixed;
     display: none; 
     justify-content: center;
     align-items: center;
@@ -78,6 +89,12 @@
     margin: 5px;
     font-size: 25px;
 }
+
+#jatekok2 #eredmeny {
+    font-size: 50px;
+}
+
+
 
 
 

@@ -44,7 +44,7 @@ function init() {
 }
 
 function setIntervalFuncion() {
-    
+    return xd = setInterval(idozito, 1000);
 }
 
 function indit() {
@@ -65,7 +65,12 @@ function indit() {
     ID("idozito").innerHTML = ido;
     ID("ujJatek").addEventListener("click", ujJatek)
     ID("ujJatek2").addEventListener("click", indit)
-    var xd = setInterval(idozito, 1000);
+    setIntervalFuncion();
+    ID("ujJatek").addEventListener("click", function () {
+        ID("jatekVege").style.display = "none";
+        clearInterval(xd);
+        indit()
+    })
 
 }
 
