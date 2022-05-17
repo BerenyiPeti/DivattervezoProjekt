@@ -3,14 +3,15 @@ article p {
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkslategrey;
+    padding: 10px;
     
 }
 
 article h1 {
     
-    text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blueviolet;
+    padding: 10px;
 }
 
 article {
@@ -19,7 +20,7 @@ article {
 }
 
 article li {
-    color: blue;
+    color: black;
     display: block;
 }
 
@@ -29,3 +30,5 @@ article h2 {
 
 main {max-width: 800px; margin: auto;}
 section {margin: 10px; padding: 5px;}
+
+.kepek img{width: 100%; float: left; max-width: 300px;}

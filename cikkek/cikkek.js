@@ -110,55 +110,53 @@ function init() {
 function megjelenit(tomb) {
 
     tomb.forEach(element => {
-
-
         for (const key in element) {
-
-
-
-
             if (key.includes("szerzo")) {
-                
-                txt += `<section><span>${element[key]}</span></section>`
+
+                txt += `<section><span><i>${element[key]}</i></span></section>`
                 document.querySelectorAll('article p')[0].innerHTML = txt
-                }
+            }
 
             if (key.includes("cimek")) {
                 txt += `<section><span><b>${element[key]}</b></span></section>`
                 /* txt += key  */
-               /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
+                /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
 
             }
+
+            
             if (key.includes("tema")) {
-                console.log(element[key])
+               /*  console.log(element[key]) */
 
                 for (const key2 in element[key]) {
-console.log(key2);
-                  /*   txt = ""; */
-                    txt += `<span>${element[key]}</span>`
-
+                   /* 
+                    txt += `<span>${element[key]}</span>` 
+ */
                     if (key2.includes("felsorolas")) {
+                        
                         txt += "<ul>"
                         txt += `<li><i>${element[key][key2]}</i></li>`
-                        /* document.querySelectorAll('article li')[0].innerHTML = txt */
                         txt += "</ul>"
-                    
+
                     }
                     if (key2.includes("bekezdes")) {
                         txt += `<section><span> ${element[key][key2]}</span></section>`
-                      document.querySelectorAll('article p')[0].innerHTML = txt 
-                        
+                        document.querySelectorAll('article p')[0].innerHTML = txt
+
                     }
                     if (key2.includes("kep")) {
-                        txt += `<section><span> ${element[key][key2]}</span></section>`
-                        document.querySelectorAll('article img')[0].innerHTML = txt 
+                        for (const key3 in element[key][key2]) {
+                            
+                                txt += `<div class="kepek"><img src ="https://c.tenor.com/KEzW7ALwfUAAAAAC/cat-what.gif"</div>`
+                                //document.querySelectorAll('article img')[0].innerHTML = txt
+                             
+                                
+                            
+                        }
                         
+                        
+
                     }
-
-                    
-
-
-
                 }
             }
 
