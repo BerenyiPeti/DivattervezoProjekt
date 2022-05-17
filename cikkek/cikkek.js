@@ -1,12 +1,12 @@
 function ID(elem) {
-  return document.getElementById(elem);
+    return document.getElementById(elem);
 }
 function $(elem) {
-  return document.querySelectorAll(elem);
+    return document.querySelectorAll(elem);
 }
 
 function CLASS(elem) {
-  return document.getElementsByClassName(elem);
+    return document.getElementsByClassName(elem);
 }
 
 
@@ -111,7 +111,7 @@ function init() {
  */            megjelenit(tomb);
 
         }).catch(err => console.error(err));
-   
+
 }
 
 
@@ -123,27 +123,81 @@ function megjelenit(tomb) {
 
     tomb.forEach(element => {
 
-        for (const key in tomb) {
-            txt += `<span>${key}:</span><span> ${tomb[key]}</span>`
+
+        for (const key in element) {
+
+            if (key.includes("cimek")) {
+                txt += `<section><span>${key}:</span><span>${element[key]}</span></section>`
+                /* txt += key  */
+                document.querySelectorAll('article h1')[0].innerHTML = txt
+
+            }
+            if (key.includes("tema")) {
+                console.log(element[key])
+
+                for (const key2 in element[key]) {
+console.log(key2);
+                    txt += `<span>${key}:</span><span> ${element[key]}</span>`
+
+                    if (key2.includes("felsorolas")) {
+                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
+                        document.querySelectorAll('article li')[0].innerHTML = txt
+                    }
+                    if (key2.includes("bekezdes")) {
+                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
+                        document.querySelectorAll('article p')[0].innerHTML = txt
+                    }
+                    if (key2.includes("kep")) {
+                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
+                        document.querySelectorAll('article img')[0].innerHTML = txt
+                    }
+
+                    
+
+
+
+                }
+            }
+
+
+
 
 
         }
-        tomb.forEach(function (item, key) {
 
-            txt += item.szerzo+item.bekezdes+item.tema;
-            /* console.log(key); */
 
-            
-        });
-    
+
+
     }
     )
-    document.querySelectorAll('article')[0].innerHTML = txt
-        
+
 };
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         tomb.forEach(function (item, key) {
+  
+              txt += item.szerzo+item.bekezdes+item.tema;
+               console.log(key); 
+  
+              
+          });*/
 
 
 
