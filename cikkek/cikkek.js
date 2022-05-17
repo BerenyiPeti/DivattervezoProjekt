@@ -126,6 +126,15 @@ function megjelenit(tomb) {
 
         for (const key in element) {
 
+
+
+
+            if (key.includes("szerzo")) {
+                
+                txt += `<section><span>${key}:</span><span> ${element[key]}</span></section>`
+                document.querySelectorAll('article p')[0].innerHTML = txt
+                }
+
             if (key.includes("cimek")) {
                 txt += `<section><span>${key}:</span><span>${element[key]}</span></section>`
                 /* txt += key  */
