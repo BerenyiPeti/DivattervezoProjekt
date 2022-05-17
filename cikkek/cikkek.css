@@ -1,8 +1,9 @@
 article p {
     
     text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategrey;
+    
 }
 
 article h1 {
@@ -19,6 +20,7 @@ article {
 
 article li {
     color: blue;
+    display: block;
 }
 
 article h2 {
@@ -26,3 +28,4 @@ article h2 {
 }
 
 main {max-width: 800px; margin: auto;}
+section {margin: 10px; padding: 5px;}

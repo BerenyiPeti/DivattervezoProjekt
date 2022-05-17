@@ -138,7 +138,7 @@ function megjelenit(tomb) {
             if (key.includes("cimek")) {
                 txt += `<section><span>${key}:</span><span>${element[key]}</span></section>`
                 /* txt += key  */
-                document.querySelectorAll('article h1')[0].innerHTML = txt
+               /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
 
             }
             if (key.includes("tema")) {
@@ -146,19 +146,24 @@ function megjelenit(tomb) {
 
                 for (const key2 in element[key]) {
 console.log(key2);
+                  /*   txt = ""; */
                     txt += `<span>${key}:</span><span> ${element[key]}</span>`
 
                     if (key2.includes("felsorolas")) {
                         txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
-                        document.querySelectorAll('article li')[0].innerHTML = txt
+                        /* document.querySelectorAll('article li')[0].innerHTML = txt */
+                        
+                    
                     }
                     if (key2.includes("bekezdes")) {
                         txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
-                        document.querySelectorAll('article p')[0].innerHTML = txt
+                      /*   document.querySelectorAll('article p')[0].innerHTML = txt */
+                        
                     }
                     if (key2.includes("kep")) {
                         txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
-                        document.querySelectorAll('article img')[0].innerHTML = txt
+                        /* document.querySelectorAll('article img')[0].innerHTML = txt */
+                        
                     }
 
                     

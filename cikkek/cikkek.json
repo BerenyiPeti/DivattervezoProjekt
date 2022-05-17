@@ -1,12 +1,11 @@
 {
   "cikkek": [
     {
-
+      "szerzo":"",
+      "cimek":"",
       "tema": {
         "alcimek": "",
-        "bekezdes": 
-          "A Fenntarthatósági Témahét 2022. április 25. és 29. között kerül megrendezésre, amelyet Emberi Erőforrások Minisztériuma hirdet. Minden hazai és határon túli nevelési-oktatási intézmény csatlakozhat idén a mi iskolánk is újra belevágott.A fenntarthatósági témahét célja, hogy megvédjük Földünket az utókor számára az esetleges Globális felmelegedéstől; vízhiánytól; klíma változástól és csökkenő energiakészlet hiányától. Fontos mindenkiben elmélyíteni ezeket a szemléleteket, hiszen mindenki számára fontos a Földünk, és ha nem vigyázunk, rá hamar tönkre megy.A SZÁMALK - Szalézi Technikum és Szakgimnázium az idei Fenntarthatósági héten is részt vesz már 2. alkalommal. Az idei évben több osztály is részt vesz az előkészületekben: Divat-, jelmez- és díszlettervező; Szoftverfejlesztő és tesztelő; Pedagógiai munkatárs; Dekoratőr; Grafikus; Fotográfus és Közművelődési munkatárs diákjai."
-        
+        "bekezdes": "A Fenntarthatósági Témahét 2022. április 25. és 29. között kerül megrendezésre, amelyet Emberi Erőforrások Minisztériuma hirdet. Minden hazai és határon túli nevelési-oktatási intézmény csatlakozhat idén a mi iskolánk is újra belevágott.A fenntarthatósági témahét célja, hogy megvédjük Földünket az utókor számára az esetleges Globális felmelegedéstől; vízhiánytól; klíma változástól és csökkenő energiakészlet hiányától. Fontos mindenkiben elmélyíteni ezeket a szemléleteket, hiszen mindenki számára fontos a Földünk, és ha nem vigyázunk, rá hamar tönkre megy.A SZÁMALK - Szalézi Technikum és Szakgimnázium az idei Fenntarthatósági héten is részt vesz már 2. alkalommal. Az idei évben több osztály is részt vesz az előkészületekben: Divat-, jelmez- és díszlettervező; Szoftverfejlesztő és tesztelő; Pedagógiai munkatárs; Dekoratőr; Grafikus; Fotográfus és Közművelődési munkatárs diákjai."
       }
     },
     {
@@ -20,9 +19,7 @@
     },
     {
       "szerzo": "Tuli Emese Boglárka",
-      "cimek": 
-        "4 magyar márka, aki hisz a fenntartható divatban"
-      ,
+      "cimek": "4 magyar márka, aki hisz a fenntartható divatban",
       "tema": {
         "alcimek": [
           "Magyar divat márkák",
@@ -44,82 +41,58 @@
     },
     {
       "szerzo": "Karányi Alexandra Viktória ",
-      "cimek": 
-        "Hulladék mentes vásárlás (lol nyelvtan)"
-      ,
+      "cimek": "Hulladék mentes vásárlás (lol nyelvtan)",
       "tema1": {
-        "cim": 
-          "Csomagolás nélküli vásárlás Magyarországon"
-        ,
+        "cim": "Csomagolás nélküli vásárlás Magyarországon",
         "kep": "kepek/cikkek/hulladek_mentes_vasarlas/adagoló.jpg",
-        "bekezdes": 
-          "Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.  Ezekben a boltokba a vásárló saját üvegedényekkel, tárolóeszközökkel érkezik, és azokban tudja haza vinni a megvásárlandó termékeket. Ez nagyban elősegíti a hulladék termelés visszafogását."
-        
+        "bekezdes": "Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.  Ezekben a boltokba a vásárló saját üvegedényekkel, tárolóeszközökkel érkezik, és azokban tudja haza vinni a megvásárlandó termékeket. Ez nagyban elősegíti a hulladék termelés visszafogását."
       },
       "tema2": {
         "cimek": "Magyar példakép",
-        "bekezdes": 
-          "A magyar hulladékmentes mozgalom egyik kiemelkedő alakja Tóth Andi, aki mások inspirálása érdekében létrehozta a Háztartásom hulladék nélkül nevű blogját. A környezetbarát üzletek a fővárosba koncentrálódtak, de emellett az ország számos nagyvárosában és szinte az összes régiójában találni néhány boltot. Nyílt csomagolásmentes bolt Orosházán, Hajdúnánáson és Berettyóújfaluban is."
-        
+        "bekezdes": "A magyar hulladékmentes mozgalom egyik kiemelkedő alakja Tóth Andi, aki mások inspirálása érdekében létrehozta a Háztartásom hulladék nélkül nevű blogját. A környezetbarát üzletek a fővárosba koncentrálódtak, de emellett az ország számos nagyvárosában és szinte az összes régiójában találni néhány boltot. Nyílt csomagolásmentes bolt Orosházán, Hajdúnánáson és Berettyóújfaluban is."
       },
       "tema3": {
         "cimek": "Mit is találhatunk egy ilyen boltban?",
         "kep": "kepek/cikkek/hulladek_mentes_vasarlas/fémszívószál.jpg",
-        "bekezdes": 
-          "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál."
-        
+        "bekezdes": "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál."
       }
     },
     {
       "szerzo": "Vigh Zsófia ",
-      "cimek": 
-        "A ZÖLD MARKETING"
-      ,
+      "cimek": "A ZÖLD MARKETING",
       "tema": {
-        "bekezdes": 
-          "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?"
-        ,
+        "bekezdes": "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?",
         "kep": "kepek/cikkek/zold_marketing/zm5.jpg",
-        "bekezdes2": 
-          "Ez a fejlesztés Magyarországon nem elterjedt, viszont a nyugati országok már előszeretettel használják, hiszen a fenntartható út választásával sokat profitálnak és a vállalkozásuk megítélése is javul. Nagyon fontos, hogy a zöld marketing mögött mindig konkrét, valós környezeti előny álljon. Ilyen lehet egy technológiaváltás, amely kevesebb mennyiségű, vagy könnyebben kezelhető melléktermékeket, hulladékot termel a végtermék mellett. Ilyen lehet egy hathatós kibocsátáscsökkentés, energiahatékonysági beruházások, vagy például megújuló energia felhasználásához napelemek, illetve szélturbinák telepítése. Ha elvégezzük a tanulmányainkat és indítanánk egy vállalkozást biztos van konkrét elképzelésünk, de legalább valami konkrét ötletünk, mai még kiegészítésre vár. Sok mindenre kell gondolnunk többek között a marketingünkre, de milyen is egy jó marketing? Hát nem egyértelmű? Az modern marketing, ami új és éppen az emberek érdeklődésének középpontjában áll. Gondoltad volna, hogy a vásárlók 49%-a hajlandó többet fizetni egy termékért, ha az környezetbarát? Pontosan ez derül ki a Nielsen globális kutatásából. "
-        ,
+        "bekezdes2": "Ez a fejlesztés Magyarországon nem elterjedt, viszont a nyugati országok már előszeretettel használják, hiszen a fenntartható út választásával sokat profitálnak és a vállalkozásuk megítélése is javul. Nagyon fontos, hogy a zöld marketing mögött mindig konkrét, valós környezeti előny álljon. Ilyen lehet egy technológiaváltás, amely kevesebb mennyiségű, vagy könnyebben kezelhető melléktermékeket, hulladékot termel a végtermék mellett. Ilyen lehet egy hathatós kibocsátáscsökkentés, energiahatékonysági beruházások, vagy például megújuló energia felhasználásához napelemek, illetve szélturbinák telepítése. Ha elvégezzük a tanulmányainkat és indítanánk egy vállalkozást biztos van konkrét elképzelésünk, de legalább valami konkrét ötletünk, mai még kiegészítésre vár. Sok mindenre kell gondolnunk többek között a marketingünkre, de milyen is egy jó marketing? Hát nem egyértelmű? Az modern marketing, ami új és éppen az emberek érdeklődésének középpontjában áll. Gondoltad volna, hogy a vásárlók 49%-a hajlandó többet fizetni egy termékért, ha az környezetbarát? Pontosan ez derül ki a Nielsen globális kutatásából. ",
         "kep1": "kepek/cikkek/zold_marketing/zm3.jpg",
-        "bekezdes3": 
-          "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig."
-        ,
+        "bekezdes3": "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig.",
         "kep2": "kepek/cikkek/zold_marketing/zm2.jpg"
       }
     },
     {
       "szerzo": "Pipics Dorottya ",
-      "cimek": 
-        "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé."
-      ,
+      "cimek": "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
       "tema": {
         "alcimekek": "",
         "bekezdes": [
           "Neked is fontos a fenntarthatóság? Rengeteg lehetőséged van tenni a környezetedért. Nagyon fontos ha már egy alternatívát kiváltasz, már azzal is nagyon sokat tehetsz környezeted egészségéért. Hulladékmentes alternatíva az egyszer használatos, eldobható tárgyak helyett:"
         ]
       },
-      "felsorolas1":"1.Műanyag zacskó helyett vászontáskát használj!",
+      "felsorolas1": "1.Műanyag zacskó helyett vászontáskát használj!",
       "felsorolas2": "2.Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
-      "felsorolas3":"3.PET-palackos italok helyett használj saját kulacsot!",
-      "felsorolas4":"4.A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
-      "felsorolas5":"5.Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
+      "felsorolas3": "3.PET-palackos italok helyett használj saját kulacsot!",
+      "felsorolas4": "4.A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
+      "felsorolas5": "5.Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
       "felsorolas6": "6.Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel. ",
-      "felsorolas7":"7.Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
-      "felsorolas8":"8.Műanyag szívószál helyett papír szívószálat használj!",
-      "felsorolas9":"9.Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
+      "felsorolas7": "7.Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
+      "felsorolas8": "8.Műanyag szívószál helyett papír szívószálat használj!",
+      "felsorolas9": "9.Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
       "felsorolas10": "10.Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
-
     },
     {
       "szerzo": "Kovács Gréta",
-      "cimek": 
-        "Mi az a TeSzedd!?"
-      ,
+      "cimek": "Mi az a TeSzedd!?",
       "tema": {
-
         "bekezdes": [
           "A TeSzedd! – Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket."
         ],
@@ -128,11 +101,8 @@
     },
     {
       "szerzo": "Kovács Gréta",
-      "cimek": 
-        "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022."
-      ,
+      "cimek": "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.",
       "tema": {
-       
         "bekezdes": [
           "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm."
         ],
@@ -145,7 +115,6 @@
         "KERT-KÓSTOLGATÓ PÁLYÁZAT"
       ],
       "tema": {
-
         "bekezdes": [
           "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig"
         ],
@@ -154,12 +123,8 @@
     },
     {
       "szerzo": "Bolla Bettina Réka ",
-      "cimek": 
-        "A fenntarthatóság problémái és céljai"
-      ,
-      "alcimek": 
-        "A Fenntarthatóság fő céljai:"
-      ,
+      "cimek": "A fenntarthatóság problémái és céljai",
+      "alcimek": "A Fenntarthatóság fő céljai:",
       "felsorolas": [
         "A SZEGÉNYSÉG FELSZÁMOLÁSA",
         "AZ ÉHEZÉS MEGSZÜNTETÉSE",
@@ -185,7 +150,6 @@
       },
       "tema2": {
         "cimek": "A fenntarthatóság alapelvei:",
-
         "felsorolas": [
           "1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét.",
           "2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét.",
@@ -196,10 +160,7 @@
       },
       "tema3": {
         "cimek": "A fenntartható fejlődés modellje szerint tehát a teljes rendszer hierarchiaviszonyai a következők:",
-
-        "bekezdes": 
-          "A főrendszer a bioszféra, amely létfenntartó rendszerként a benne élő emberi alrendszerek létét és létezésének valamennyi feltételét biztosítja. A természetbe ágyazottan, alrendszerként él a társadalom, amely egészséges kontrollt, egyensúlyt tart fenn a bioszféra és a gazdaság között."
-        
+        "bekezdes": "A főrendszer a bioszféra, amely létfenntartó rendszerként a benne élő emberi alrendszerek létét és létezésének valamennyi feltételét biztosítja. A természetbe ágyazottan, alrendszerként él a társadalom, amely egészséges kontrollt, egyensúlyt tart fenn a bioszféra és a gazdaság között."
       },
       "tema4": {
         "cimek": "A fenntartható társadalom legfontosabb ismérvei, alapvető követelményei:",
@@ -209,35 +170,23 @@
       },
       "tema5": {
         "cimek": "Fenntarthatóság az iskolában",
-
         "bekezdes": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos. "
       }
     },
     {
       "szerzo": "PItyer Viktória Krisztina ",
-      "cimek": 
-        "Fenntarthatóság a színházban"
-      ,
+      "cimek": "Fenntarthatóság a színházban",
       "tema1": {
         "alcimek": "Kovács Bea: Zöld út – Bizonyítékok a fenntartható színház létezésére ",
-
-        "bekezdes": 
-          "Az Éghajlatpolitika és előadóművészetek elnevezésű digitális találkozón elhangzott, hogyan segíthet a történetmesélés a példamutatásban: „Az előadások meg tudják mutatni a nézőnek azt, hogy a változás (a környezet védelméért) már elkezdődött, mert léteznek olyan emberek, akik képesek voltak változtatni saját életükön. Az erős, jól felépített, a közösségi szellemre ható történetek a tudományos álláspontot is képesek közelebb vinni a nézőhöz, és érthetővé, átláthatóbbá fordítják az (öko)szisztémák kusza, komplex viszonyrendszerét.A Csíki Játékszínben Sándor Anna 2019-es kezdeményezése óta már többen is leszoktak az egyszer használatos sminklemosó használatáról, helyettük mosható textilkorongokat alkalmaznak. A népszerű nagy színészek nyílt felelősségvállalásáról és a színházak által kezdeményezett párbeszédeket is folytatnak a témával kapcsolatban. Illetve a városi színházak olykor segítséget kérnek a kellékgyűjtéshez, megspórolva ezzel a gyártást és az azzal járó költségeket és hulladékot.A Marosvásárhelyi Nemzeti Színház Tompa Miklós Társulatának munkatársai nyilvános folyótisztítási akcióban vettek részt, a Radnóti Színház legújabb kiadványa pedig környezetvédelmi okokból csak digitális formátumban jelent meg."
-        
+        "bekezdes": "Az Éghajlatpolitika és előadóművészetek elnevezésű digitális találkozón elhangzott, hogyan segíthet a történetmesélés a példamutatásban: „Az előadások meg tudják mutatni a nézőnek azt, hogy a változás (a környezet védelméért) már elkezdődött, mert léteznek olyan emberek, akik képesek voltak változtatni saját életükön. Az erős, jól felépített, a közösségi szellemre ható történetek a tudományos álláspontot is képesek közelebb vinni a nézőhöz, és érthetővé, átláthatóbbá fordítják az (öko)szisztémák kusza, komplex viszonyrendszerét.A Csíki Játékszínben Sándor Anna 2019-es kezdeményezése óta már többen is leszoktak az egyszer használatos sminklemosó használatáról, helyettük mosható textilkorongokat alkalmaznak. A népszerű nagy színészek nyílt felelősségvállalásáról és a színházak által kezdeményezett párbeszédeket is folytatnak a témával kapcsolatban. Illetve a városi színházak olykor segítséget kérnek a kellékgyűjtéshez, megspórolva ezzel a gyártást és az azzal járó költségeket és hulladékot.A Marosvásárhelyi Nemzeti Színház Tompa Miklós Társulatának munkatársai nyilvános folyótisztítási akcióban vettek részt, a Radnóti Színház legújabb kiadványa pedig környezetvédelmi okokból csak digitális formátumban jelent meg."
       },
       "tema2": {
         "alcimek": "Mára huszonegy tagja van a Zöld Színház Projekt kezdeményezésnek az ország legkülönbözőbb részeiről.",
-
-        "bekezdes": 
-          "Papp Endre (a Zöld Színház Projekt vezetője) világossá teszi, hogy a Zöld Színház Projekt nem hivatott szembemenni a művészeti víziókkal, csupán arra tesz javaslatot, hogy az adott díszletelemet és kelléket honnan szerezzék be."
-        
+        "bekezdes": "Papp Endre (a Zöld Színház Projekt vezetője) világossá teszi, hogy a Zöld Színház Projekt nem hivatott szembemenni a művészeti víziókkal, csupán arra tesz javaslatot, hogy az adott díszletelemet és kelléket honnan szerezzék be."
       },
       "tema3": {
         "alcimek": "Színház újrahasznosított papírból",
-
-        "bekezdes": 
-          "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz."
-        
+        "bekezdes": "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz."
       }
     },
     {
@@ -247,7 +196,6 @@
       ],
       "tema1": {
         "alcimek": "De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?",
-
         "bekezdes": [
           "A fenntarthatóság fogalma 1987-ben indult útjára, amikor az ENSZ a fenntartható fejlődést – melyet azóta leegyszerűsítve fenntarthatóságnak is nevezünk – a következőképpen definiálta: fejlődés, amely „anélkül elégíti ki a jelen szükségleteit, hogy veszélyeztetné a jövő generációk lehetőségét saját igényeik kielégítésére”. Azaz fenntartható például az a fejlődés, melynek során nem használunk fel minden, korlátosan hozzáférhető nyersanyagot vagy nem szennyezzük be visszafordíthatatlanul vizeinket.",
           "Mint a fenntarthatóság egészével, úgy magával a definíció értelmezésével, gyakorlatba ültetésével kapcsolatban sem teljes az összhang a témával foglalkozók között.",
@@ -256,38 +204,23 @@
       },
       "tema2": {
         "alcimek": "A zéro összegű játék hívők",
-
-        "bekezdes": 
-          "Sok környezeti szakértő számára például a fenntartható fejlődés alapvetően egyfajta oximoronnak (önmagában való ellentmondásnak) tekinthető, hiszen a környezet befolyásolása nélkül nem képzelhető el fejlődés.Ők úgy gondolják, hogy a gazdaság az emberi társadalom, a társadalom pedig a bioszféra (azaz a földi élet tere) egyik alrendszerének tekinthető, és ezek együttműködése zéróösszegű játék: amit az egyik nyer, az szükségszerűen veszteséget jelent a másik számára, miközben az ökoszisztéma (az élőlény-közösségek és élőhelyeik összessége) valamely összetevőjének túlzott használata drasztikus hatással van az ökoszisztéma egészére."
-        
+        "bekezdes": "Sok környezeti szakértő számára például a fenntartható fejlődés alapvetően egyfajta oximoronnak (önmagában való ellentmondásnak) tekinthető, hiszen a környezet befolyásolása nélkül nem képzelhető el fejlődés.Ők úgy gondolják, hogy a gazdaság az emberi társadalom, a társadalom pedig a bioszféra (azaz a földi élet tere) egyik alrendszerének tekinthető, és ezek együttműködése zéróösszegű játék: amit az egyik nyer, az szükségszerűen veszteséget jelent a másik számára, miközben az ökoszisztéma (az élőlény-közösségek és élőhelyeik összessége) valamely összetevőjének túlzott használata drasztikus hatással van az ökoszisztéma egészére."
       },
       "tema3": {
         "alcimek": "A win-win hívők",
-
-        "bekezdes": 
-          "A fenntarthatóság lényege azonban sokak szerint  – éppen a nyertes-nyertes (win-win) lehetőségek kiaknázása, az olyan eszközök és megoldások megtalálása és alkalmazása, amelyekkel a társadalom és a környezet egyaránt jól jár, és amelyek révén akár évtizedek múlva is összhangban élhetünk a környezetünkkel.Ebben a megközelítésben a fenntarthatóság összetett jelenség. Egyrészt tényszerűséget és tudományosságot várunk el tőle. Másrészt a fenntarthatóság maga cselekvésre – leginkább szokásaink megváltoztatására – szólít fel, és így gyakorlati szerepe is meghatározó.A célok és feladatok értelmezésétől függetlenül és nagyon leegyszerűsítve tehát a fenntarthatóság mindazon fogalmakat és tevékenységeket magában foglalja, amelyek lehetővé teszik, hogy a Földön az élet évtizedek múlva is a maihoz hasonló lehessen. Bár véleményem szerint ezt egy fajta minimalista megközelítésnek kellene tekinteni – hiszen globálisan nézve (bizonyos területeket vagy embercsoportokat tekintve) a mai helyzeten is lehet még javítani –, az aktuális gazdasági-társadalmi folyamatokat figyelembe véve azonban már a jelenlegi szint fenntartása is komoly célkitűzésnek számít."
-        
+        "bekezdes": "A fenntarthatóság lényege azonban sokak szerint  – éppen a nyertes-nyertes (win-win) lehetőségek kiaknázása, az olyan eszközök és megoldások megtalálása és alkalmazása, amelyekkel a társadalom és a környezet egyaránt jól jár, és amelyek révén akár évtizedek múlva is összhangban élhetünk a környezetünkkel.Ebben a megközelítésben a fenntarthatóság összetett jelenség. Egyrészt tényszerűséget és tudományosságot várunk el tőle. Másrészt a fenntarthatóság maga cselekvésre – leginkább szokásaink megváltoztatására – szólít fel, és így gyakorlati szerepe is meghatározó.A célok és feladatok értelmezésétől függetlenül és nagyon leegyszerűsítve tehát a fenntarthatóság mindazon fogalmakat és tevékenységeket magában foglalja, amelyek lehetővé teszik, hogy a Földön az élet évtizedek múlva is a maihoz hasonló lehessen. Bár véleményem szerint ezt egy fajta minimalista megközelítésnek kellene tekinteni – hiszen globálisan nézve (bizonyos területeket vagy embercsoportokat tekintve) a mai helyzeten is lehet még javítani –, az aktuális gazdasági-társadalmi folyamatokat figyelembe véve azonban már a jelenlegi szint fenntartása is komoly célkitűzésnek számít."
       },
       "tema4": {
         "alcimek": "Környezet, azaz ’odafigyelés’ (környezeti felelősség):",
-
-        "bekezdes": 
-          "Környezettudatosság, környezet-etikus magatartás, környezetünk védelme, beleértve a klímaváltozással és a tudatos fogyasztással kapcsolatos szempontokat.Biológiai sokszínűség fenntartása, azaz az állat- és növényvilág védelme.Természeti erőforrásokkal való fenntartható gazdálkodás, takarékos használat, megújuló energiaforrások használata."
-        
+        "bekezdes": "Környezettudatosság, környezet-etikus magatartás, környezetünk védelme, beleértve a klímaváltozással és a tudatos fogyasztással kapcsolatos szempontokat.Biológiai sokszínűség fenntartása, azaz az állat- és növényvilág védelme.Természeti erőforrásokkal való fenntartható gazdálkodás, takarékos használat, megújuló energiaforrások használata."
       },
       "tema5": {
         "alcimek": "Társadalmi dimenzió, azaz ’elfogadás’ (társadalmi felelősség):",
-
-        "bekezdes": 
-          "Fenntartható társadalom: egészségügyi és élelmezési, valamint a túlnépesedésből és az öregedő társadalmakból fakadó társadalmi problémák kezelése.Szociális igazságosság, esélyegyenlőség, társadalmi különbségek. Társadalmi sokszínűség, szolidaritás, békés egymás mellett élés."
-        
+        "bekezdes": "Fenntartható társadalom: egészségügyi és élelmezési, valamint a túlnépesedésből és az öregedő társadalmakból fakadó társadalmi problémák kezelése.Szociális igazságosság, esélyegyenlőség, társadalmi különbségek. Társadalmi sokszínűség, szolidaritás, békés egymás mellett élés."
       },
       "tema6": {
         "alcimek": "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:",
-
-        "bekezdes": 
-          "Tisztességes, átlátható vállalati működés, „fair trade”.Környezeti terhelés csökkentése pl. CO2 kibocsátás minimalizálása és papírmentes iroda révén.Emberközpontúság mind a kollégák, mind az ügyfelek tekintetében.Társadalmi szerepvállalás fontossága."
-        
+        "bekezdes": "Tisztességes, átlátható vállalati működés, „fair trade”.Környezeti terhelés csökkentése pl. CO2 kibocsátás minimalizálása és papírmentes iroda révén.Emberközpontúság mind a kollégák, mind az ügyfelek tekintetében.Társadalmi szerepvállalás fontossága."
       },
       "link": "LINK:https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
     },
@@ -298,18 +231,13 @@
       ],
       "tema": {
         "kep": "kepek/cikkek/oceanok_mi_a_szerepük_az_eletben,_hogyan_ovjuk_oket/kep2jpg.jpg",
-        "bekezdes": 
-          "Földünk hidroszférájának közel 71 százalékát óceánok borítják. Hatalmas területet fednek le, mégsem kapnak elég figyelmet. Célunk ezen változtatni! Cikkünk szélesíteni kívánja ismereteidet velük kapcsolatban, beutatja, hogy te mit tehetsz védelmük érdekében."
-        
+        "bekezdes": "Földünk hidroszférájának közel 71 százalékát óceánok borítják. Hatalmas területet fednek le, mégsem kapnak elég figyelmet. Célunk ezen változtatni! Cikkünk szélesíteni kívánja ismereteidet velük kapcsolatban, beutatja, hogy te mit tehetsz védelmük érdekében."
       }
-        },
+    },
     {
       "szerzo": "Zachar Veronika",
-      "cimek": 
-        "Milyen szerepet töltenek be az óceánok a Föld életében?"
-      ,
+      "cimek": "Milyen szerepet töltenek be az óceánok a Föld életében?",
       "tema": {
-
         "bekezdes": [
           "Az óceánok nélkül a bolygó élhetetlen lenne, rengeteg lehetőséget kínálnak a növekedés, a foglalkoztatás és az innováció előmozdítására. "
         ]
@@ -317,21 +245,15 @@
     },
     {
       "szerzo": "Zachar Veronika",
-      "cimek": 
-        "Milyen globális kihívások jelentek fenyegétést az óceánokra jelenünkben?"
-      ,
+      "cimek": "Milyen globális kihívások jelentek fenyegétést az óceánokra jelenünkben?",
       "tema": {
-
-        "bekezdes": 
-          "Sürgős megoldásokat kell találnunk példul a klímaváltozás területén, a rohamos hulladék felhalmozódás ellen, de a sort még folytathatnánk…"
-        
+        "bekezdes": "Sürgős megoldásokat kell találnunk példul a klímaváltozás területén, a rohamos hulladék felhalmozódás ellen, de a sort még folytathatnánk…"
       }
     },
     {
       "szerzo": "Zachar Veronika",
       "cimek": "Említsünk meg néhány konkrét dolgot: ",
       "tema": {
-
         "felsorolas": [
           "A klímaváltozásnak számos káros hatása van az óceánokra.Ilyen példul a hőmérséklet növekedés. ",
           "A bolygónk felmelegedése mögött közvetlenül 93%-ban az óceánok melegedése áll. Mitől is melegszik az óceán? Ezt a jelenséget az üvegházhatású gázok, ezen belül főként a szén-dioxid fokozódó kibocsátása generálja. Ennek következtében egyre több napenergia esik csapdába a légkörben, mely az óceánokba kerülve növeli a víz hőmérsékletét és megváltoztatja körforgását, valamint a sarki jég olvadását eredményezi.",
@@ -349,7 +271,6 @@
         "Miért jelentenek óriási problémát az óceánokban végbemenő változások?"
       ],
       "tema": {
-
         "bekezdes": [
           "Az óceánokban végbemenő változások több komponensből összeálló problémát jelentenek. A víz körforgására gyakorolt hatás szélsőséges időjárási körülményeket idézhet elő. Normál esetben ez a körforgás eredményezi a víz folyamatos elosztását az óceánokból a légkörbe, szárazföldre, folyókba és tavakba, majd vissza a tengerekbe és az óceánokba. Az éghajlatváltozás nyomán fokozódik a légkörben található vízgőz szintje, emiatt teljes mértékben kiszámíthatatlanná válik az, hogy milyen mértékű lesz a rendelkezésre álló víz mennyisége. Mindezek a körülmények egyes helyeken heves zivatarokat okozhatnak, más térségekben viszont épp az ellenkező hatást érik el: súlyosbodhat az aszályhelyzet, különösen a nyári hónapok alatt, és ez egyes területeken elsivatagosodáshoz vezethet."
         ]
@@ -361,7 +282,6 @@
         "Mi várható, ha minden így megy tovább az óceánokban?"
       ],
       "tema": {
-
         "bekezdes": [
           "Ha nem teszünk lépéseket az óceánok felmelegedésének és savasodásának megfékezése érdekében, azt kockáztatjuk, hogy az éghajlatszabályozásban betöltött szerepüket fokozatosan elvesztik, a klíma pedig olyan átalakuláson megy át, hogy az az életkörülmények drasztikus leromlásához vezet.",
           "Az óceánokban végbemenő változások hatására olvadnak a gleccserek, zsugorodnak a hóval és jéggel borított területek. Felborul a sarkvidéki ökoszisztéma, egyre kisebb térre szorulnak vissza a sarkvidéki állatok és az őslakos emberek. Az olvadás következtében emelkedik a tengerszint, egyre nagyobb területek kerülnek víz alá, mindezek az egymást generáló események pedig az emberi életkörülményeket is ellehetetlenítik: a gazdasági problémák mellett évtizedeken belül a tömeges migrációval is számolni kell.",
@@ -376,7 +296,6 @@
         "Mi a nemzetközi óceánpolitika álláspontja?"
       ],
       "tema": {
-
         "bekezdes": [
           "Alapvető változtatásokat kell kieszközölni rövid időn belül az óceánpolitika tekintetében, ha biztosítani kívánják az emberiség jövőjét – ezért a nemzetközi szervezetek is felkarolták az óceánok ügyét. "
         ]
@@ -388,7 +307,6 @@
         "Mit tehetünk az óceánok védelméért?"
       ],
       "tema": {
-
         "bekezdes": [
           "Fontos, hogy felismerjük: nem csupán az európai, vagy a nemzetközi szervezetek, politikai nagyhatalmak tehetnek az óceánok ügyéért, hanem mi magunk, személyesen is felelősek vagyunk érte, és egyenként is hozzájárulhatunk a megóvásukhoz, mellyel saját jövőnket is biztosítjuk.",
           "Mind egyéni, mind közösségi szinten fontos, hogy csökkentsünk a tengereket érő szennyezést, különösen a szárazföldi tevékenységből eredőket, például a tengeri uszadékot, és a tápanyagterhelést. ",
