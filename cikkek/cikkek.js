@@ -131,12 +131,12 @@ function megjelenit(tomb) {
 
             if (key.includes("szerzo")) {
                 
-                txt += `<section><span>${key}:</span><span> ${element[key]}</span></section>`
+                txt += `<section><span>${element[key]}</span></section>`
                 document.querySelectorAll('article p')[0].innerHTML = txt
                 }
 
             if (key.includes("cimek")) {
-                txt += `<section><span>${key}:</span><span>${element[key]}</span></section>`
+                txt += `<section><span><b>${element[key]}</b></span></section>`
                 /* txt += key  */
                /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
 
@@ -147,22 +147,23 @@ function megjelenit(tomb) {
                 for (const key2 in element[key]) {
 console.log(key2);
                   /*   txt = ""; */
-                    txt += `<span>${key}:</span><span> ${element[key]}</span>`
+                    txt += `<span>${element[key]}</span>`
 
                     if (key2.includes("felsorolas")) {
-                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
+                        txt += "<ul>"
+                        txt += `<li><i>${element[key][key2]}</i></li>`
                         /* document.querySelectorAll('article li')[0].innerHTML = txt */
-                        
+                        txt += "</ul>"
                     
                     }
                     if (key2.includes("bekezdes")) {
-                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
-                      /*   document.querySelectorAll('article p')[0].innerHTML = txt */
+                        txt += `<section><span> ${element[key][key2]}</span></section>`
+                      document.querySelectorAll('article p')[0].innerHTML = txt 
                         
                     }
                     if (key2.includes("kep")) {
-                        txt += `<section><span>${key2}:</span><span> ${element[key][key2]}</span></section>`
-                        /* document.querySelectorAll('article img')[0].innerHTML = txt */
+                        txt += `<section><span> ${element[key][key2]}</span></section>`
+                        document.querySelectorAll('article img')[0].innerHTML = txt 
                         
                     }
 
