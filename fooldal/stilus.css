@@ -4,36 +4,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e9d8b9;
+    /*background-color: #e9d8b9;*/
 }
 
+/*
 main{
     
     background-color: #f7e0c5;
     background-image: url("https://www.transparenttextures.com/patterns/dark-tire.png");
 }
-
-ul li{
-    list-style-type: none;
-
-}
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0px;
-    padding-top: 15px;
-    margin: 0px;
-
-}
-
-nav {
-    width: 100%;
-    height: 50px;
-    margin: auto;
-}
-
+*/
+/*
 .fooldal-szov{
     color: rgb(2, 122, 2);
 }
@@ -49,7 +30,7 @@ a:hover{
 a:visited{
     color: rgb(4, 112, 4);
 }
-
+*/
 /*slideshow starts*/
 .slider{
     width: 800px;
