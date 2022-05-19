@@ -36,18 +36,24 @@ let kukak = [
 
 var pontszam = 0;
 var szemetIndex = 0;
-var ido = 10;
+var ido = 15;
 
 
 function init() {
-    /*ido = 10;
-    ID("jatekKezdet").addEventListener("click", indit);*/
-    indit();
+    ID("jatekKezdet").addEventListener("click", indit);
+}
+
+function setIntervalFuncion() {
+    return xd = setInterval(idozito, 1000);
 }
 
 function indit() {
-
+    ido = 1000000;
+    pontszam = 0;
+    szemetIndex = 0;
+    hatter("white");
     ID("kezdoKep").style.display = "none";
+    ID("jatekMezo").style.display = "flex";
     jsonHivas();
     /*kukak.forEach(kukak => {
         kukak.addEventListener("click", () => {
@@ -57,12 +63,18 @@ function indit() {
     kukaKever();
     ID("pontszam").innerHTML = pontszam;
     ID("idozito").innerHTML = ido;
-    ID("ujJatek").addEventListener("click", init)
-
-    setInterval(idozito, 1000);
-
+    ID("ujJatek").addEventListener("click", ujJatek)
+    //ID("ujJatek2").addEventListener("click", indit)
+    setIntervalFuncion();
+    ID("ujJatek").addEventListener("click", function () {
+        ID("jatekVege").style.display = "none";
+        clearInterval(xd);
+        indit()
+    })
 
 }
+
+
 
 function jsonHivas() {
     fetch("szemet.json")
@@ -136,8 +148,23 @@ function idozito() {
     if (ido > 0) {
         ido -= 1;
         ID("idozito").innerHTML = ido;
+    } else {
+        jatekVege();
     }
 
+    
+
+}
+
+function jatekVege() {
+    ID("jatekVege").style.display = "flex";
+    ID("jatekMezo").style.display = "none";
+    ID("ujJatek2").addEventListener("click", function () {
+        ID("jatekVege").style.display = "none";
+        clearInterval(xd);
+        ID("kezdoKep").style.display = "flex";
+    })
+    ID("eredmeny").innerHTML = pontszam;
 }
 
 
