@@ -114,7 +114,7 @@ function megjelenit(tomb) {
             if (key.includes("szerzo")) {
 
                 txt += `<section><span><i>${element[key]}</i></span></section>`
-                document.querySelectorAll('article p')[0].innerHTML = txt
+                document.querySelectorAll('article p')[0].innerHTML = txt;
             }
 
             if (key.includes("cimek")) {
@@ -124,16 +124,16 @@ function megjelenit(tomb) {
 
             }
 
-            
+
             if (key.includes("tema")) {
-               /*  console.log(element[key]) */
+                /*  console.log(element[key]) */
 
                 for (const key2 in element[key]) {
-                   /* 
-                    txt += `<span>${element[key]}</span>` 
- */
+                    /* 
+                     txt += `<span>${element[key]}</span>` 
+  */
                     if (key2.includes("felsorolas")) {
-                        
+
                         txt += "<ul>"
                         txt += `<li><i>${element[key][key2]}</i></li>`
                         txt += "</ul>"
@@ -146,15 +146,15 @@ function megjelenit(tomb) {
                     }
                     if (key2.includes("kep")) {
                         for (const key3 in element[key][key2]) {
-                            
-                                txt += `<div class="kepek"><img src ="https://c.tenor.com/KEzW7ALwfUAAAAAC/cat-what.gif"</div>`
-                                //document.querySelectorAll('article img')[0].innerHTML = txt
-                             
-                                
-                            
+
+                            txt += `<div class="kepek"><img src="${element[key][key2].eleres}>"</div>`
+                            //document.querySelectorAll('article img')[0].innerHTML = txt
+
+
+
                         }
-                        
-                        
+
+
 
                     }
                 }

@@ -24,11 +24,9 @@ article li {
     display: block;
 }
 
-article h2 {
-    color: red;
-}
+
 
 main {max-width: 800px; margin: auto;}
-section {margin: 10px; padding: 5px;}
+section {margin: 10px; padding: 30px;}
 
 .kepek img{width: 100%; float: left; max-width: 300px;}
