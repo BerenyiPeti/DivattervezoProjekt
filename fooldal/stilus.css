@@ -1,58 +1,53 @@
 body{
     padding: 0;
     margin: 0;
-    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8dca9;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    background-color: #e9d8b9;
+}
+
+main{
+    
+    background-color: #f7e0c5;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-tire.png");
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    margin: auto;
 }
 
 .fooldal-szov{
-    color: green;
-}
-
-.fooldal-navigation{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-}
-.fooldal-menu{
-    list-style: none;
-}
-
-li{
-    display: inline-block;
+    color: rgb(2, 122, 2);
 }
 
 a{
-    color: rgb(132, 230, 132);
+    color: rgb(0, 155, 0);
 }
 
-.fooldal-menupont{
-    padding: 50px;
-}
-
-.fooldal-menupont:hover{
-    color: rgba(86, 128, 24, 0.705);
+a:hover{
+    color: rgba(44, 71, 4, 0.705);
 }
 
 a:visited{
-    color: rgb(21, 100, 21);
-}
-
-
-.fooldal-article{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.fooldal-aside{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    color: rgb(4, 112, 4);
 }
 
 /*slideshow starts*/
