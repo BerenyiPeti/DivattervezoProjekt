@@ -3,7 +3,6 @@
 }
 
 #jatekok2 #kukaTarolo img {
-    border: 3px solid black;
     cursor: pointer;
 }
 
@@ -14,10 +13,6 @@
     z-index: 1;
 }
 
-
-#jatekok2 .tarolo {
-    border: 1px solid black;
-}
 
 #jatekok2 #szemetTarolo {
     width: 250px;
@@ -92,6 +87,10 @@
 
 #jatekok2 #eredmeny {
     font-size: 50px;
+}
+
+#jatekok2 button {
+    cursor: pointer;
 }
 
 

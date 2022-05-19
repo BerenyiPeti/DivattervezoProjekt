@@ -87,37 +87,44 @@
     cursor: pointer;
 }
 
-#jatekok #ujJatekGomb {
+#jatekok .gomb2 {
+    width: 150px;
     margin: auto;
-    margin-top: 15px;
     border: 1px solid black;
     width: 150px;
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
     background-color: rgb(23, 173, 227);
+    font-weight: bold;
+    
 }
 
-#jatekok #ujJatekGomb:hover {
+#jatekok .gomb2:hover {
     background-color: rgb(44, 194, 248);
 }
 
-#jatekok #ujJatekGomb:active {
+#jatekok .gomb2:active {
     background-color: rgb(0, 133, 182);
 }
 
-#jatekok #ujJatekGomb:hover {
+#jatekok .gomb2:hover {
     cursor: pointer;
 }
 
-#jatekok .gomb2 {
+#jatekok  a {
+    text-decoration: none;
+    color: black;
+}
+
+#jatekok #ujJatekGomb {
+    width: 160px;
     margin: auto;
-    font-weight: bold;
 
 }
 
-#jatekok .gombTarolo a {
-    text-decoration: none;
-    color: black;
+#jatekok #menu {
+    width: 160px;
+    margin: auto;
 }
 
 

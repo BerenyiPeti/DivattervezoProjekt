@@ -48,7 +48,7 @@ function setIntervalFuncion() {
 }
 
 function indit() {
-    ido = 5;
+    ido = 1000000;
     pontszam = 0;
     szemetIndex = 0;
     hatter("white");
@@ -64,7 +64,7 @@ function indit() {
     ID("pontszam").innerHTML = pontszam;
     ID("idozito").innerHTML = ido;
     ID("ujJatek").addEventListener("click", ujJatek)
-    ID("ujJatek2").addEventListener("click", indit)
+    //ID("ujJatek2").addEventListener("click", indit)
     setIntervalFuncion();
     ID("ujJatek").addEventListener("click", function () {
         ID("jatekVege").style.display = "none";
@@ -162,7 +162,9 @@ function jatekVege() {
     ID("ujJatek2").addEventListener("click", function () {
         ID("jatekVege").style.display = "none";
         clearInterval(xd);
+        ID("kezdoKep").style.display = "flex";
     })
+    ID("eredmeny").innerHTML = pontszam;
 }
 
 
