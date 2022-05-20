@@ -1,25 +1,32 @@
 article p {
     
     text-align: justify;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-family: serif;
+    font-size: 15px;
     color: darkslategrey;
     padding: 10px;
     width: fit-content;
+    float: left;
     
 }
 
 article {
   
-    background-color: ghostwhite;
+    background-color: whitesmoke;
 }
 
 
 
 li  {float: initial; width: fit-content; margin-left: 50px; padding-right: 30px;}
 
-main {max-width: 800px; margin: auto;}
+main {max-width: 900px; margin: auto;}
 section {margin: 10px; padding: 20px; width: fit-content;}
 
-.kepek img{width: 100%; float: left; max-width: 350px; margin-left: 25px;  border-radius: 40px; padding: 30px;}
+.kepek img{width: 100%; float: left; max-width: 350px; margin-left: 17px; padding: 40px; padding-top: 1px;} 
+
+.cim {font-size: 18px; padding-top: 0.1px;  margin: auto; color: darkolivegreen; width: fit-content;
+     text-align: center;}
+
+.szerzo {font-size: 18px; padding-top: 40px; color:slategrey; font-family: serif;}
+
 

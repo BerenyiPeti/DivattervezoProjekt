@@ -24,24 +24,27 @@
       "szerzo": "Tuli Emese Boglárka:",
       "cimek": "4 magyar márka, aki hisz a fenntartható divatban",
       "tema": {
-        "alcimek": [
-          "Magyar divat márkák",
-          "Budapest-Select Concept Store",
-          "ALMA",
-          "Zsigmond Dora Menswear",
-          "DAIGE",
-          "Maison Marquise"
-        ],
-        "bekezdes": [
-          "Egyre több magyar márka helyez hangsúlyt a divatipar fenntarthatóságára, a környezetbarát munkafolyamatokra, a gyártás átláthatóságára és a méltányos munkakörülmények megteremtésének fontosságára. Lelkiismeretes munkájuknak és a közösségi oldalak hatékony kommunikációnak köszönhetően mára a fogyasztói szokások is változó tendenciát mutatnak. Egyre többen keresik az etikus eljárással, újragondolt szabási technikával, kézzel és helyben készült darabokat az üzletekben.",
-          "A Budapest Select Concept Store kínálatában is egyre több olyan márka található, akik a kreatív munkafolyamatok során előtérbe helyezik a fenntarthatóságot, olyan darabokat hozva létre, amelyek egyszerre stílusosak, funkcionálisak, klasszikusak és modernek. A magyar márkák számára a fenntarthatóság nemcsak egy jól csengő zöld marketingfogás, hanem életstílus. Eheti válogatásunkban olyan friss magyar márkák kerülnek bemutatásra, akik szem előtt tartják a környezetvédelmet és hisznek a helyben készült termékek vonzerejében.",
-          "ALMA-A művészcsaládból származó ALMA saját magát festi meg anyagmintáit is. Kollekcióit hulladékmentes gyártástechnológiával valósítja meg. A számos szakmai díjat elnyert ALMA nemrég a milánói divathéten és a BCEFW-n is bemutatta 2021-22-es őszi-téli kollekcióját, amelyben számos egymással jól kombinálható, időtlen darab található. Ilyen például a Kayla felső is, ami 142,000 forintért kapható a Budapest Select Concept Store kínálatában.",
-          "ZSIGMOND DORA menswear-A 2014-ben alapított márka kollekciói a tradíciókból építkeznek, de a 21. század elvárásaihoz igazodva funkcionálisak is egyben. Az újrahasznosításra és környezetvédelemre nagy hangsúlyt fektető tervező kiválóan egyesíti archaikus paraszti kultúra és a magyar folklór elemeit a városi életérzéssel, megalkotva ezzel a modern városi férfi ruhatárát. A márka egyes darabjai a női gardróbba is könnyen beépíthetőek, ilyen például ez a kézzel szőtt, természetes növényi festéssel színezett, egyedi mintázatú ing is, amiért 85,000 forintot kérnek a webshopban.",
-          "DAIGE-A Tóth Melinda által 2013-ban alapított márka célja, hogy darabjaik több évre szóljanak, minőség és formavilág tekintetében időtállóak és elérhetőek is maradjanak. Irányelvük az autentikusság, a fenntarthatóság, a megfizethetőség és a praktikum. A DAIGE gerle madárral díszített pólója egyszerre lezser és nőies, 11,990 forintért rendelhető meg a Budapest Select Concept Store-ból.",
-          "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban."
-        ]
+  
+        "bekezdes1": "Magyar divat márkák",
+        "bekezdes2": "Egyre több magyar márka helyez hangsúlyt a divatipar fenntarthatóságára, a környezetbarát munkafolyamatokra, a gyártás átláthatóságára és a méltányos munkakörülmények megteremtésének fontosságára. Lelkiismeretes munkájuknak és a közösségi oldalak hatékony kommunikációnak köszönhetően mára a fogyasztói szokások is változó tendenciát mutatnak. Egyre többen keresik az etikus eljárással, újragondolt szabási technikával, kézzel és helyben készült darabokat az üzletekben.",
+        "bekezdes3": "Budapest-Select Concept Store",
+        "bekezdes4": "A Budapest Select Concept Store kínálatában is egyre több olyan márka található, akik a kreatív munkafolyamatok során előtérbe helyezik a fenntarthatóságot, olyan darabokat hozva létre, amelyek egyszerre stílusosak, funkcionálisak, klasszikusak és modernek. A magyar márkák számára a fenntarthatóság nemcsak egy jól csengő zöld marketingfogás, hanem életstílus. Eheti válogatásunkban olyan friss magyar márkák kerülnek bemutatásra, akik szem előtt tartják a környezetvédelmet és hisznek a helyben készült termékek vonzerejében.",
+        "bekezdes5":"ALMA",
+        "bekezdes6": "A művészcsaládból származó ALMA saját magát festi meg anyagmintáit is. Kollekcióit hulladékmentes gyártástechnológiával valósítja meg. A számos szakmai díjat elnyert ALMA nemrég a milánói divathéten és a BCEFW-n is bemutatta 2021-22-es őszi-téli kollekcióját, amelyben számos egymással jól kombinálható, időtlen darab található. Ilyen például a Kayla felső is, ami 142,000 forintért kapható a Budapest Select Concept Store kínálatában.",
+        "bekezdes7": "Zsigmond Dora Menswear",
+        "bekezdes8": "A 2014-ben alapított márka kollekciói a tradíciókból építkeznek, de a 21. század elvárásaihoz igazodva funkcionálisak is egyben. Az újrahasznosításra és környezetvédelemre nagy hangsúlyt fektető tervező kiválóan egyesíti archaikus paraszti kultúra és a magyar folklór elemeit a városi életérzéssel, megalkotva ezzel a modern városi férfi ruhatárát. A márka egyes darabjai a női gardróbba is könnyen beépíthetőek, ilyen például ez a kézzel szőtt, természetes növényi festéssel színezett, egyedi mintázatú ing is, amiért 85,000 forintot kérnek a webshopban.",
+        "bekezdes9": "DAIGE",
+        "bekezdes10": "A Tóth Melinda által 2013-ban alapított márka célja, hogy darabjaik több évre szóljanak, minőség és formavilág tekintetében időtállóak és elérhetőek is maradjanak. Irányelvük az autentikusság, a fenntarthatóság, a megfizethetőség és a praktikum. A DAIGE gerle madárral díszített pólója egyszerre lezser és nőies, 11,990 forintért rendelhető meg a Budapest Select Concept Store-ból.",
+        "bekezdes11":"Maison Marquise",
+        "bekezdes12":"A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban."
+
+        
+          
+         
+     
+        }
       }
-    },
+    ,
     {
       "szerzo": "Karányi Alexandra Viktória:",
       "cimek": "Hulladék mentes vásárlás",
@@ -104,19 +107,19 @@
         "alcimekek": "",
         "bekezdes": [
           "Neked is fontos a fenntarthatóság? Rengeteg lehetőséged van tenni a környezetedért. Nagyon fontos ha már egy alternatívát kiváltasz, már azzal is nagyon sokat tehetsz környezeted egészségéért. Hulladékmentes alternatíva az egyszer használatos, eldobható tárgyak helyett:"
-        ]
-      },
-      "felsorolas1": "1.Műanyag zacskó helyett vászontáskát használj!",
-      "felsorolas2": "2.Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
-      "felsorolas3": "3.PET-palackos italok helyett használj saját kulacsot!",
-      "felsorolas4": "4.A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
-      "felsorolas5": "5.Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
-      "felsorolas6": "6.Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel. ",
-      "felsorolas7": "7.Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
-      "felsorolas8": "8.Műanyag szívószál helyett papír szívószálat használj!",
-      "felsorolas9": "9.Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
-      "felsorolas10": "10.Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
-    },
+        ],
+      
+      "felsorolas1": "Műanyag zacskó helyett vászontáskát használj!",
+      "felsorolas2": "Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
+      "felsorolas3": "PET-palackos italok helyett használj saját kulacsot!",
+      "felsorolas4": "A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
+      "felsorolas5": "Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
+      "felsorolas6": "Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel. ",
+      "felsorolas7": "Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
+      "felsorolas8": "Műanyag szívószál helyett papír szívószálat használj!",
+      "felsorolas9": "Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
+      "felsorolas10": "Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
+    }},
     {
       "szerzo": "Kovács Gréta:",
       "cimek": "Mi az a TeSzedd!?",
@@ -135,6 +138,9 @@
     },
     {
       "szerzo": "",
+      "szerzo1": "",
+      "szerzo5": "",
+      "szerzo4": "",
       "cimek": "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.",
       "tema": {
         "bekezdes": [
@@ -152,7 +158,7 @@
     {
       "szerzo": "",
       "cimek": [
-        "KERT-KÓSTOLGATÓ PÁLYÁZAT"
+        "KERTKÓSTOLGATÓ PÁLYÁZAT"
       ],
       "tema": {
         "bekezdes": [
@@ -289,6 +295,7 @@
   },
   {
     "szerzo": "",
+    "szerzo1": "",
     "cimek": "Milyen szerepet töltenek be az óceánok a Föld életében?",
     "tema": {
       "bekezdes": [

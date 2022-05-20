@@ -113,12 +113,12 @@ function megjelenit(tomb) {
         for (const key in element) {
             if (key.includes("szerzo")) {
 
-                txt += `<section><span><i>${element[key]}</i></span></section>`
+                txt += `<section class = "szerzo"><span>${element[key]}</span></section>`
                 document.querySelectorAll('article p')[0].innerHTML = txt;
             }
 
             if (key.includes("cimek")) {
-                txt += `<section><span><b>${element[key]}</b></span></section>`
+                txt += `<section class = "cim"><span><b>${element[key]}</b></span></section>`
                 /* txt += key  */
                 /*  document.querySelectorAll('article h1')[0].innerHTML = txt */
 
@@ -139,8 +139,9 @@ function megjelenit(tomb) {
                         txt += "</ul>"
 
                     }
+
                     if (key2.includes("bekezdes")) {
-                        txt += `<section><span> ${element[key][key2]}</span></section>`
+                        txt += `<section class="alcim"><span>${element[key][key2]}</span></section>`
                         document.querySelectorAll('article p')[0].innerHTML = txt
 
                     }
