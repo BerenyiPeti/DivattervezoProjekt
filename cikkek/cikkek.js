@@ -126,7 +126,7 @@ function megjelenit(tomb) {
 
 
             if (key.includes("tema")) {
-                /*  console.log(element[key]) */
+                 console.log(element[key]) 
 
                 for (const key2 in element[key]) {
                     /* 
@@ -147,7 +147,8 @@ function megjelenit(tomb) {
                     if (key2.includes("kep")) {
                         for (const key3 in element[key][key2]) {
 
-                            txt += `<div class="kepek"><img src="${element[key][key2].eleres}>"</div>`
+                            txt += `<div class="kepek"><img src="${element[key][key2].eleres}"></div>`
+
                             //document.querySelectorAll('article img')[0].innerHTML = txt
 
 
