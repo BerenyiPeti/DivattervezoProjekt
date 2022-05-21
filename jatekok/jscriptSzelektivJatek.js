@@ -49,7 +49,7 @@ function setIntervalFuncion() {
 }
 
 function indit() {
-    ido = 1000000;
+    ido = 30;
     pontszam = 0;
     szemetIndex = 0;
     hatter("white");
