@@ -35,7 +35,77 @@
             "eleres": "../kepek/jatekok/szemet5.png",
             "id": "5",
             "tipus": "feherkuka"
+        },
+        {
+            "nev": "szemet6",
+            "eleres": "../kepek/jatekok/szemet6.png",
+            "id": "6",
+            "tipus": "feherkuka"
+        },
+        {
+            "nev": "szemet7",
+            "eleres": "../kepek/jatekok/szemet7.png",
+            "id": "7",
+            "tipus": "feherkuka"
+        },
+        {
+            "nev": "szemet8",
+            "eleres": "../kepek/jatekok/szemet8.png",
+            "id": "8",
+            "tipus": "kekkuka"
+        },
+        {
+            "nev": "szemet9",
+            "eleres": "../kepek/jatekok/szemet9.png",
+            "id": "9",
+            "tipus": "kekkuka"
+        },
+        {
+            "nev": "szemet10",
+            "eleres": "../kepek/jatekok/szemet10.png",
+            "id": "10",
+            "tipus": "kekkuka"
+        },
+        {
+            "nev": "szemet11",
+            "eleres": "../kepek/jatekok/szemet11.png",
+            "id": "11",
+            "tipus": "zoldkuka"
+        },
+        {
+            "nev": "szemet12",
+            "eleres": "../kepek/jatekok/szemet12.png",
+            "id": "12",
+            "tipus": "zoldkuka"
+        },
+        {
+            "nev": "szemet13",
+            "eleres": "../kepek/jatekok/szemet13.png",
+            "id": "13",
+            "tipus": "zoldkuka"
+        },
+        {
+            "nev": "szemet14",
+            "eleres": "../kepek/jatekok/szemet14.png",
+            "id": "14",
+            "tipus": "sargakuka"
+        },
+        {
+            "nev": "szemet15",
+            "eleres": "../kepek/jatekok/szemet15.png",
+            "id": "15",
+            "tipus": "sargakuka"
+        },
+        {
+            "nev": "szemet16",
+            "eleres": "../kepek/jatekok/szemet16.png",
+            "id": "16",
+            "tipus": "sargakuka"
         }
+
+
+
+
 
     ]
 }
