@@ -20,7 +20,7 @@ p {
     width: 150px;
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
-    background-color: rgb(23, 173, 227);
+    background-color: rgb(245, 227, 165);
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -31,11 +31,10 @@ p {
 }
 
 #jatekoldal a:hover {
-    background-color: rgb(14, 191, 255);
+    background-color: rgb(237, 205, 101);
 
 }
 
 #jatekoldal a:active {
-    background-color: rgb(6, 146, 197);
-
+    background-color: rgb(252, 215, 91);
 }
