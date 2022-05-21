@@ -1,5 +1,5 @@
-article p {
-    
+#cikkek article p {
+
     text-align: justify;
     font-family: serif;
     font-size: 15px;
@@ -7,26 +7,55 @@ article p {
     padding: 10px;
     width: fit-content;
     float: left;
-    
+
 }
 
-article {
-  
+#cikkek article {
+
     background-color: whitesmoke;
 }
 
 
 
-li  {float: initial; width: fit-content; margin-left: 50px; padding-right: 30px;}
+#cikkek li {
+    float: initial;
+    width: fit-content;
+    margin-left: 50px;
+    padding-right: 30px;
+}
 
-main {max-width: 900px; margin: auto;}
-section {margin: 10px; padding: 20px; width: fit-content;}
+#cikkek main {
+    max-width: 900px;
+    margin: auto;
+}
 
-.kepek img{width: 100%; float: left; max-width: 350px; margin-left: 17px; padding: 40px; padding-top: 1px;} 
+#cikkek section {
+    margin: 10px;
+    padding: 20px;
+    width: fit-content;
+}
 
-.cim {font-size: 18px; padding-top: 0.1px;  margin: auto; color: darkolivegreen; width: fit-content;
-     text-align: center;}
+#cikkek .kepek img {
+    width: 100%;
+    float: left;
+    max-width: 350px;
+    margin-left: 17px;
+    padding: 40px;
+    padding-top: 1px;
+}
 
-.szerzo {font-size: 18px; padding-top: 40px; color:slategrey; font-family: serif;}
+#cikkek .cim {
+    font-size: 18px;
+    padding-top: 0.1px;
+    margin: auto;
+    color: darkolivegreen;
+    width: fit-content;
+    text-align: center;
+}
 
-
+#cikkek .szerzo {
+    font-size: 18px;
+    padding-top: 40px;
+    color: slategrey;
+    font-family: serif;
+}
