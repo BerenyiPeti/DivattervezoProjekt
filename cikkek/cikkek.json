@@ -9,51 +9,54 @@
       }
     },
     {
-      "szerzo": "Zachar Veronika",
+      "szerzo": "Zachar Veronika:",
       "cimek": "Az energiánk 20%-a szélerőművekből fog érkezni",
       "tema": {
         "kep": {
-          "nev": "Szélerős",
-          "eleres": "kepek/cikkek/az_energiank_20%-a_szeleromovekbol_fog_erkezni/kep1.jpg"
+          
+          "eleres": "kepek/energia/kep1.jpg"
         },
         "bekezdes": "A szélenergia ipar legalább olyan gyorsan növekszik, mint a napelem ipar, ha nem gyorsabban.  Becslések szerint 2030-ra globális szinten az energia 20%-a szélerőművekből fog származni. A technológia ugyan drága, és sokkal nagyobb mértékű beruházásokra van szükség, mint a napelemes befektetéseknél, de a szélenergia hosszútávú előnyei sokkal kecsegtetőbbek. Ha az átállás sikeres lenne  az azt jelentené, hogy évente 3,6 milliárd tonnával kevesebb széndioxidot engednénk a levegőbe.Kína az egyik legkiemelkedőbb vezető ország, ha szélenergiáról van szó. Tavaly 17%-ra növelték a szélenergiából befolyó energia mennyiségét az országban, és jelenleg is további bővítéseket terveznek, még idén. Ezen kívül már született megegyezés abban, hogy 1.000 szénbányát fognak bezárni országszerte, ezzel is elősegítve a megújuló energiaforrásokba történő befektetéseket.Az jó ügy édekében Kínának és még sok más országnak teljesen át kell alakítania a hálózat infrastruktúráját, hogy teljesen ki tudják használni a megújuló energiaforrásokat."
       },
       "link": "https://tinyurl.com/2knv9s7t"
     },
     {
-      "szerzo": "Tuli Emese Boglárka",
+      "szerzo": "Tuli Emese Boglárka:",
       "cimek": "4 magyar márka, aki hisz a fenntartható divatban",
       "tema": {
-        "alcimek": [
-          "Magyar divat márkák",
-          "Budapest-Select Concept Store",
-          "ALMA",
-          "Zsigmond Dora Menswear",
-          "DAIGE",
-          "Maison Marquise"
-        ],
-        "bekezdes": [
-          "Egyre több magyar márka helyez hangsúlyt a divatipar fenntarthatóságára, a környezetbarát munkafolyamatokra, a gyártás átláthatóságára és a méltányos munkakörülmények megteremtésének fontosságára. Lelkiismeretes munkájuknak és a közösségi oldalak hatékony kommunikációnak köszönhetően mára a fogyasztói szokások is változó tendenciát mutatnak. Egyre többen keresik az etikus eljárással, újragondolt szabási technikával, kézzel és helyben készült darabokat az üzletekben.",
-          "A Budapest Select Concept Store kínálatában is egyre több olyan márka található, akik a kreatív munkafolyamatok során előtérbe helyezik a fenntarthatóságot, olyan darabokat hozva létre, amelyek egyszerre stílusosak, funkcionálisak, klasszikusak és modernek. A magyar márkák számára a fenntarthatóság nemcsak egy jól csengő zöld marketingfogás, hanem életstílus. Eheti válogatásunkban olyan friss magyar márkák kerülnek bemutatásra, akik szem előtt tartják a környezetvédelmet és hisznek a helyben készült termékek vonzerejében.",
-          "ALMA-A művészcsaládból származó ALMA saját magát festi meg anyagmintáit is. Kollekcióit hulladékmentes gyártástechnológiával valósítja meg. A számos szakmai díjat elnyert ALMA nemrég a milánói divathéten és a BCEFW-n is bemutatta 2021-22-es őszi-téli kollekcióját, amelyben számos egymással jól kombinálható, időtlen darab található. Ilyen például a Kayla felső is, ami 142,000 forintért kapható a Budapest Select Concept Store kínálatában.",
-          "ZSIGMOND DORA menswear-A 2014-ben alapított márka kollekciói a tradíciókból építkeznek, de a 21. század elvárásaihoz igazodva funkcionálisak is egyben. Az újrahasznosításra és környezetvédelemre nagy hangsúlyt fektető tervező kiválóan egyesíti archaikus paraszti kultúra és a magyar folklór elemeit a városi életérzéssel, megalkotva ezzel a modern városi férfi ruhatárát. A márka egyes darabjai a női gardróbba is könnyen beépíthetőek, ilyen például ez a kézzel szőtt, természetes növényi festéssel színezett, egyedi mintázatú ing is, amiért 85,000 forintot kérnek a webshopban.",
-          "DAIGE-A Tóth Melinda által 2013-ban alapított márka célja, hogy darabjaik több évre szóljanak, minőség és formavilág tekintetében időtállóak és elérhetőek is maradjanak. Irányelvük az autentikusság, a fenntarthatóság, a megfizethetőség és a praktikum. A DAIGE gerle madárral díszített pólója egyszerre lezser és nőies, 11,990 forintért rendelhető meg a Budapest Select Concept Store-ból.",
-          "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban."
-        ]
+  
+        "bekezdes1": "Magyar divat márkák",
+        "bekezdes2": "Egyre több magyar márka helyez hangsúlyt a divatipar fenntarthatóságára, a környezetbarát munkafolyamatokra, a gyártás átláthatóságára és a méltányos munkakörülmények megteremtésének fontosságára. Lelkiismeretes munkájuknak és a közösségi oldalak hatékony kommunikációnak köszönhetően mára a fogyasztói szokások is változó tendenciát mutatnak. Egyre többen keresik az etikus eljárással, újragondolt szabási technikával, kézzel és helyben készült darabokat az üzletekben.",
+        "bekezdes3": "Budapest-Select Concept Store",
+        "bekezdes4": "A Budapest Select Concept Store kínálatában is egyre több olyan márka található, akik a kreatív munkafolyamatok során előtérbe helyezik a fenntarthatóságot, olyan darabokat hozva létre, amelyek egyszerre stílusosak, funkcionálisak, klasszikusak és modernek. A magyar márkák számára a fenntarthatóság nemcsak egy jól csengő zöld marketingfogás, hanem életstílus. Eheti válogatásunkban olyan friss magyar márkák kerülnek bemutatásra, akik szem előtt tartják a környezetvédelmet és hisznek a helyben készült termékek vonzerejében.",
+        "bekezdes5":"ALMA",
+        "bekezdes6": "A művészcsaládból származó ALMA saját magát festi meg anyagmintáit is. Kollekcióit hulladékmentes gyártástechnológiával valósítja meg. A számos szakmai díjat elnyert ALMA nemrég a milánói divathéten és a BCEFW-n is bemutatta 2021-22-es őszi-téli kollekcióját, amelyben számos egymással jól kombinálható, időtlen darab található. Ilyen például a Kayla felső is, ami 142,000 forintért kapható a Budapest Select Concept Store kínálatában.",
+        "bekezdes7": "Zsigmond Dora Menswear",
+        "bekezdes8": "A 2014-ben alapított márka kollekciói a tradíciókból építkeznek, de a 21. század elvárásaihoz igazodva funkcionálisak is egyben. Az újrahasznosításra és környezetvédelemre nagy hangsúlyt fektető tervező kiválóan egyesíti archaikus paraszti kultúra és a magyar folklór elemeit a városi életérzéssel, megalkotva ezzel a modern városi férfi ruhatárát. A márka egyes darabjai a női gardróbba is könnyen beépíthetőek, ilyen például ez a kézzel szőtt, természetes növényi festéssel színezett, egyedi mintázatú ing is, amiért 85,000 forintot kérnek a webshopban.",
+        "bekezdes9": "DAIGE",
+        "bekezdes10": "A Tóth Melinda által 2013-ban alapított márka célja, hogy darabjaik több évre szóljanak, minőség és formavilág tekintetében időtállóak és elérhetőek is maradjanak. Irányelvük az autentikusság, a fenntarthatóság, a megfizethetőség és a praktikum. A DAIGE gerle madárral díszített pólója egyszerre lezser és nőies, 11,990 forintért rendelhető meg a Budapest Select Concept Store-ból.",
+        "bekezdes11":"Maison Marquise",
+        "bekezdes12":"A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban."
+
+        
+          
+         
+     
+        }
       }
-    },
+    ,
     {
-      "szerzo": "Karányi Alexandra Viktória ",
+      "szerzo": "Karányi Alexandra Viktória:",
       "cimek": "Hulladék mentes vásárlás",
       "tema1": {
         "cim": "Csomagolás nélküli vásárlás Magyarországon",
-        "kep": [
+        "kep": 
           {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
+            
+            "eleres": "kepek/hulladek_mentes_vasarlas/adagolo.jpg"
+            
           }
-        ],
+        ,
         "bekezdes": "Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.  Ezekben a boltokba a vásárló saját üvegedényekkel, tárolóeszközökkel érkezik, és azokban tudja haza vinni a megvásárlandó termékeket. Ez nagyban elősegíti a hulladék termelés visszafogását."
       },
       "tema2": {
@@ -62,119 +65,113 @@
       },
       "tema3": {
         "cimek": "Mit is találhatunk egy ilyen boltban?",
-        "kep": [
-          {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
-          }
-        ],
+        
+        
         "bekezdes": "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál."
       }
     },
     {
-      "szerzo": "Vigh Zsófia ",
+      "szerzo": "Vigh Zsófia:",
       "cimek": "A ZÖLD MARKETING",
       "tema": {
         "bekezdes": "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?",
-        "kep": [
-          {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
-          }
-        ],
+        "kep1": 
+        {
+          "eleres": "kepek/zold_marketing/zm3.jpg"
+
+        }
+        ,
         "bekezdes2": "Ez a fejlesztés Magyarországon nem elterjedt, viszont a nyugati országok már előszeretettel használják, hiszen a fenntartható út választásával sokat profitálnak és a vállalkozásuk megítélése is javul. Nagyon fontos, hogy a zöld marketing mögött mindig konkrét, valós környezeti előny álljon. Ilyen lehet egy technológiaváltás, amely kevesebb mennyiségű, vagy könnyebben kezelhető melléktermékeket, hulladékot termel a végtermék mellett. Ilyen lehet egy hathatós kibocsátáscsökkentés, energiahatékonysági beruházások, vagy például megújuló energia felhasználásához napelemek, illetve szélturbinák telepítése. Ha elvégezzük a tanulmányainkat és indítanánk egy vállalkozást biztos van konkrét elképzelésünk, de legalább valami konkrét ötletünk, mai még kiegészítésre vár. Sok mindenre kell gondolnunk többek között a marketingünkre, de milyen is egy jó marketing? Hát nem egyértelmű? Az modern marketing, ami új és éppen az emberek érdeklődésének középpontjában áll. Gondoltad volna, hogy a vásárlók 49%-a hajlandó többet fizetni egy termékért, ha az környezetbarát? Pontosan ez derül ki a Nielsen globális kutatásából. ",
-        "kep1": [
-          {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
-          }
-        ],
-        "bekezdes3": "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig.",
-        "kep2": [
-          {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
-          }
-        ]
+        "kep2": 
+        {
+          
+          "eleres": "kepek/zold_marketing/zm2.jpg"
+         
+        },
+    
+        
+        "bekezdes3": "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig."
+
+        
       }
     },
     {
-      "szerzo": "Pipics Dorottya ",
+      "szerzo": "Pipics Dorottya:",
       "cimek": "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
       "tema": {
         "alcimekek": "",
         "bekezdes": [
           "Neked is fontos a fenntarthatóság? Rengeteg lehetőséged van tenni a környezetedért. Nagyon fontos ha már egy alternatívát kiváltasz, már azzal is nagyon sokat tehetsz környezeted egészségéért. Hulladékmentes alternatíva az egyszer használatos, eldobható tárgyak helyett:"
-        ]
-      },
-      "felsorolas1": "1.Műanyag zacskó helyett vászontáskát használj!",
-      "felsorolas2": "2.Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
-      "felsorolas3": "3.PET-palackos italok helyett használj saját kulacsot!",
-      "felsorolas4": "4.A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
-      "felsorolas5": "5.Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
-      "felsorolas6": "6.Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel. ",
-      "felsorolas7": "7.Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
-      "felsorolas8": "8.Műanyag szívószál helyett papír szívószálat használj!",
-      "felsorolas9": "9.Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
-      "felsorolas10": "10.Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
-    },
+        ],
+      
+      "felsorolas1": "Műanyag zacskó helyett vászontáskát használj!",
+      "felsorolas2": "Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
+      "felsorolas3": "PET-palackos italok helyett használj saját kulacsot!",
+      "felsorolas4": "A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat! ",
+      "felsorolas5": "Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
+      "felsorolas6": "Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel. ",
+      "felsorolas7": "Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
+      "felsorolas8": "Műanyag szívószál helyett papír szívószálat használj!",
+      "felsorolas9": "Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
+      "felsorolas10": "Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
+    }},
     {
-      "szerzo": "Kovács Gréta",
+      "szerzo": "Kovács Gréta:",
       "cimek": "Mi az a TeSzedd!?",
       "tema": {
         "bekezdes": [
           "A TeSzedd! – Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket."
         ],
-        "kep": [
+        "kep": 
           {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
+
+            "eleres": "kepek/teszedd/kep1.jpg"
+
           }
-        ]
+        
       }
     },
     {
-      "szerzo": "Kovács Gréta",
+      "szerzo": "",
+      "szerzo1": "",
+      "szerzo5": "",
+      "szerzo4": "",
       "cimek": "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.",
       "tema": {
         "bekezdes": [
           "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm."
         ],
-        "kep": [
+        "kep": 
           {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
+
+            "eleres": "kepek/teszedd/kep2.jpg"
+
           }
-        ]
+        
       }
     },
     {
-      "szerzo": "Kovács Gréta",
+      "szerzo": "",
       "cimek": [
-        "KERT-KÓSTOLGATÓ PÁLYÁZAT"
+        "KERTKÓSTOLGATÓ PÁLYÁZAT"
       ],
       "tema": {
         "bekezdes": [
           "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig"
         ],
-        "kep": [
+        "kep": 
           {
-            "nev": "kep02",
-            "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-            "leiras": "Fémszívószál"
+
+            "eleres": "kepek/teszedd/kep3.jpg"
+
           }
-        ]
+        
       }
     },
     {
       "szerzo": "Bolla Bettina Réka ",
       "cimek": "A fenntarthatóság problémái és céljai",
+      "tema":{
       "alcimek": "A Fenntarthatóság fő céljai:",
       "felsorolas1": "A SZEGÉNYSÉG FELSZÁMOLÁSA",
       "felsorolas2": "AZ ÉHEZÉS MEGSZÜNTETÉSE",
@@ -193,20 +190,21 @@
       "felsorolas15": "ÓCEÁNOK ÉS TENGEREK VÉDELME",
       "felsorolas16": "SZÁRAZFÖLDI ÖKOSZISZTÉMÁK VÉDELME",
       "felsorolas17": "BÉKE, IGAZSÁG ÉS ERŐS INTÉZMÉNYEK"
-    ,
+      },
     "tema1": {
       "cimek": "A fenntartható fejlődés fogalma",
       "bekezdes": "A fenntartható fejlődés (sustainable development) olyan fejlődési folyamat (földeké, városoké, termelési folyamatoké, társadalmaké stb.), amely kielégíti a jelen szükségleteit anélkül, hogy csökkentené a jövendő generációk képességét, hogy kielégítsék a saját szükségleteiket"
     },
     "tema2": {
       "cimek": "A fenntarthatóság alapelvei:",
-      "felsorolas": [
-        "1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét.",
-        "2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét.",
-        "3. A nem-megújuló erőforrások felhasználásának a mértéke nem haladhatja meg azt az ütemet, amilyen arányban helyettesíteni tudjuk őket megújuló erőforrásokkal.",
-        "Az emberi népesség létszámának és fogyasztásának növekedése tekinthető a globális változás legfontosabb okának. A növekedéssel, illetve a gazdasági tevékenység fokozásával együtt jár a földfelszín globális léptékű megváltozása.A globális változásnak a természetes élőhelyek területének csökkenése mellett a legfeltűnőbb eleme a klímának, illetve a légkör összetételének változása. Annak ellenére, hogy a globális világproblémák összefüggéseinek feltárása már régen elkezdődött, a Föld ökológiai helyzete fokozatosan romlik.",
-        "„A jövő a mi kezünkben van. Együtt mindent meg kell tennünk annak érdekében, hogy az unokáinknak ne kelljen majd megkérdezniük tőlünk, miért nem sikerült helyesen cselekednünk, és nem szabad hagynunk, hogy a mi hibáink következményeit ők szenvedjék el.” Ban Ki-moon, az ENSZ főtitkára, 2007"
-      ]
+      "felsorolas1":"1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét.",
+      "felsorolas2":"2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét.",
+      "felsorolas3":  "3. A nem-megújuló erőforrások felhasználásának a mértéke nem haladhatja meg azt az ütemet, amilyen arányban helyettesíteni tudjuk őket megújuló erőforrásokkal.",
+      "felsorolas4":"Az emberi népesség létszámának és fogyasztásának növekedése tekinthető a globális változás legfontosabb okának. A növekedéssel, illetve a gazdasági tevékenység fokozásával együtt jár a földfelszín globális léptékű megváltozása.A globális változásnak a természetes élőhelyek területének csökkenése mellett a legfeltűnőbb eleme a klímának, illetve a légkör összetételének változása. Annak ellenére, hogy a globális világproblémák összefüggéseinek feltárása már régen elkezdődött, a Föld ökológiai helyzete fokozatosan romlik.",
+      "felsorolas5":  "„A jövő a mi kezünkben van. Együtt mindent meg kell tennünk annak érdekében, hogy az unokáinknak ne kelljen majd megkérdezniük tőlünk, miért nem sikerült helyesen cselekednünk, és nem szabad hagynunk, hogy a mi hibáink következményeit ők szenvedjék el.” Ban Ki-moon, az ENSZ főtitkára, 2007"
+       
+  
+      
     },
     "tema3": {
       "cimek": "A fenntartható fejlődés modellje szerint tehát a teljes rendszer hierarchiaviszonyai a következők:",
@@ -224,7 +222,7 @@
     }
   },
   {
-    "szerzo": "PItyer Viktória Krisztina ",
+    "szerzo": "PItyer Viktória Krisztina:",
     "cimek": "Fenntarthatóság a színházban",
     "tema1": {
       "alcimek": "Kovács Bea: Zöld út – Bizonyítékok a fenntartható színház létezésére ",
@@ -240,7 +238,7 @@
     }
   },
   {
-    "szerzo": "Oláh Barbara",
+    "szerzo": "Oláh Barbara:",
     "cimek": [
       "A fenntarthatóság fogalmai:"
     ],
@@ -272,26 +270,27 @@
       "alcimek": "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:",
       "bekezdes": "Tisztességes, átlátható vállalati működés, „fair trade”.Környezeti terhelés csökkentése pl. CO2 kibocsátás minimalizálása és papírmentes iroda révén.Emberközpontúság mind a kollégák, mind az ügyfelek tekintetében.Társadalmi szerepvállalás fontossága."
     },
-    "link": "LINK:https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
+    "link": "https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "Zachar Veronika:",
     "cimek": [
       "Óceánok: mi a szerepük az életben, hogyan óvjuk őket?"
     ],
     "tema": {
-      "kep": [
+      "kep": 
         {
-          "nev": "kep02",
-          "eleres": "http://www.kepfeltoltes.eu/view.php?filename=714f_msz_v_sz_l.jpg",
-          "leiras": "Fémszívószál"
+
+          "eleres": "kepek/oceanok_mi_a_szerepük_az_eletben,_hogyan_ovjuk_oket/kep2jpg.jpg"
+
         }
-      ],
+      ,
       "bekezdes": "Földünk hidroszférájának közel 71 százalékát óceánok borítják. Hatalmas területet fednek le, mégsem kapnak elég figyelmet. Célunk ezen változtatni! Cikkünk szélesíteni kívánja ismereteidet velük kapcsolatban, beutatja, hogy te mit tehetsz védelmük érdekében."
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
+    "szerzo1": "",
     "cimek": "Milyen szerepet töltenek be az óceánok a Föld életében?",
     "tema": {
       "bekezdes": [
@@ -300,14 +299,14 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": "Milyen globális kihívások jelentek fenyegétést az óceánokra jelenünkben?",
     "tema": {
       "bekezdes": "Sürgős megoldásokat kell találnunk példul a klímaváltozás területén, a rohamos hulladék felhalmozódás ellen, de a sort még folytathatnánk…"
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": "Említsünk meg néhány konkrét dolgot: ",
     "tema": {
       "felsorolas1": "A klímaváltozásnak számos káros hatása van az óceánokra.Ilyen példul a hőmérséklet növekedés.",
@@ -318,7 +317,7 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": [
       "Miért jelentenek óriási problémát az óceánokban végbemenő változások?"
     ],
@@ -329,7 +328,7 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": [
       "Mi várható, ha minden így megy tovább az óceánokban?"
     ],
@@ -343,7 +342,7 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": [
       "Mi a nemzetközi óceánpolitika álláspontja?"
     ],
@@ -354,7 +353,7 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": [
       "Mit tehetünk az óceánok védelméért?"
     ],
@@ -371,7 +370,7 @@
     }
   },
   {
-    "szerzo": "Zachar Veronika",
+    "szerzo": "",
     "cimek": [
       "Mit tehetsz te személy szerint az óceánok védelme érdekében?"
     ],

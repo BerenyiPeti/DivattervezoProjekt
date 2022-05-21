@@ -1,34 +1,32 @@
 article p {
     
     text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: serif;
+    font-size: 15px;
     color: darkslategrey;
     padding: 10px;
+    width: fit-content;
+    float: left;
     
-}
-
-article h1 {
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blueviolet;
-    padding: 10px;
 }
 
 article {
   
-    background-color: ghostwhite;
+    background-color: whitesmoke;
 }
 
-article li {
-    color: black;
-    display: block;
-}
 
-article h2 {
-    color: red;
-}
 
-main {max-width: 800px; margin: auto;}
-section {margin: 10px; padding: 5px;}
+li  {float: initial; width: fit-content; margin-left: 50px; padding-right: 30px;}
 
-.kepek img{width: 100%; float: left; max-width: 300px;}
+main {max-width: 900px; margin: auto;}
+section {margin: 10px; padding: 20px; width: fit-content;}
+
+.kepek img{width: 100%; float: left; max-width: 350px; margin-left: 17px; padding: 40px; padding-top: 1px;} 
+
+.cim {font-size: 18px; padding-top: 0.1px;  margin: auto; color: darkolivegreen; width: fit-content;
+     text-align: center;}
+
+.szerzo {font-size: 18px; padding-top: 40px; color:slategrey; font-family: serif;}
+
+
