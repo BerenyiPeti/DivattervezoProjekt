@@ -126,7 +126,7 @@ function megjelenit(tomb) {
 
 
             if (key.includes("tema")) {
-                 console.log(element[key]) 
+                console.log(element[key])
 
                 for (const key2 in element[key]) {
                     /* 
