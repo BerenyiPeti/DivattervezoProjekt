@@ -40,6 +40,7 @@ var ido = 15;
 
 
 function init() {
+    jsonHivas();
     ID("jatekKezdet").addEventListener("click", indit);
 }
 
@@ -48,13 +49,13 @@ function setIntervalFuncion() {
 }
 
 function indit() {
-    ido = 1000000;
+    ido = 30;
     pontszam = 0;
     szemetIndex = 0;
     hatter("white");
     ID("kezdoKep").style.display = "none";
     ID("jatekMezo").style.display = "flex";
-    jsonHivas();
+    
     /*kukak.forEach(kukak => {
         kukak.addEventListener("click", () => {
             console.log("kuka");
@@ -63,14 +64,14 @@ function indit() {
     kukaKever();
     ID("pontszam").innerHTML = pontszam;
     ID("idozito").innerHTML = ido;
-    ID("ujJatek").addEventListener("click", ujJatek)
+    //ID("ujJatek").addEventListener("click", ujJatek)
     //ID("ujJatek2").addEventListener("click", indit)
     setIntervalFuncion();
-    ID("ujJatek").addEventListener("click", function () {
+    /*ID("ujJatek").addEventListener("click", function () {
         ID("jatekVege").style.display = "none";
         clearInterval(xd);
         indit()
-    })
+    })*/
 
 }
 
