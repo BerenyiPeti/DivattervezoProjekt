@@ -1,4 +1,4 @@
-window.addEventListener("load", init);
+/*window.addEventListener("load", init);
 
 function ID(elem) {
     return document.getElementById(elem);
@@ -27,4 +27,4 @@ var counter = 1;
                     if(counter >4){
                         counter = 1;
                     }
-                }, 5000);
+                }, 5000);*/
