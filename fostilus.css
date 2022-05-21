@@ -2,6 +2,10 @@ main {
     max-width: 100%;
 }
 
+#kozos a {
+    font-weight: bold;
+}
+
 #kozos {
     margin: 0px;
     padding: 0px;
