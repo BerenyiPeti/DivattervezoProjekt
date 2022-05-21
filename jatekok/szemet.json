@@ -23,6 +23,19 @@
             "eleres": "../kepek/jatekok/szemet3.png",
             "id": "3",
             "tipus": "sargakuka"
+        },
+        {
+            "nev": "szemet4",
+            "eleres": "../kepek/jatekok/szemet4.png",
+            "id": "4",
+            "tipus": "feherkuka"
+        },
+        {
+            "nev": "szemet5",
+            "eleres": "../kepek/jatekok/szemet5.png",
+            "id": "5",
+            "tipus": "feherkuka"
         }
+
     ]
 }

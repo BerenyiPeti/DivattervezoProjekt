@@ -94,6 +94,29 @@
 }
 
 
+#jatekok2 .gomb {
+    width: 150px;
+    margin: auto;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(23, 173, 227);
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#jatekok2 a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
