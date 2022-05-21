@@ -69,7 +69,8 @@ function KiirTeszt(lista) {
         }
         txt = txt + "</div>"
     }
-    txt += "</br><button id='check-answers-button'>Show anwsers</button>"
+    txt += "</br><button id='check-answers-button' class='gomb'>Ellenörzés</button>"
+    txt += "</br></br><button id='reset' class='gomb'>Újraindítás</button>"
     ID("tesztes").innerHTML = txt;
     ID("check-answers-button").addEventListener("click", function() {
         this.disabled = true
@@ -83,7 +84,12 @@ function KiirTeszt(lista) {
                 score += 1
             }
         }
+
         alert("Elért pontszám:" + score +
             "\n\nSzázalék:" + (score / answers.length * 100).toFixed(2) + "%")
+    });
+    ID("reset").addEventListener("click", function() {
+        alert("Újraindítás")
+        location.reload();
     });
 }

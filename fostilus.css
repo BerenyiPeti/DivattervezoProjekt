@@ -4,6 +4,7 @@ main {
 
 #kozos a {
     font-weight: bold;
+    
 }
 
 #kozos {
@@ -78,6 +79,13 @@ body {
 #kozos #fotarolo {
     max-width: 1400px;
     margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #kozos nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 
