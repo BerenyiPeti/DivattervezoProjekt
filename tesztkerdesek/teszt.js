@@ -62,26 +62,28 @@ function KiirTeszt(lista) {
         txt = txt + "<div>" + "<h3>" + lista[i].Kerdesek + "</h3>"
         for (let index = 0; index < randomvalasz.length; index++) {
             if (randomvalasz[index].startsWith(" JÓ")) {
-                txt = txt + "<br>" + "<div class='correct'><input type='radio' id='html' name=" + i + " value='" + index + "'>" + randomvalasz[index].substring(3) + "</div>"
+                txt = txt + "<br>" + "<div class='correct'><input type='radio' id=" + i + " name=" + i + " value='" + index + "'>" + randomvalasz[index].substring(3) + "</div>"
             } else {
-                txt = txt + "<br>" + "<div class='incorrect'><input type='radio' id='html' name=" + i + " value='" + index + "'>" + randomvalasz[index] + "</div>"
+                txt = txt + "<br>" + "<div class='incorrect'><input type='radio' id=" + i + " name=" + i + " value='" + index + "'>" + randomvalasz[index] + "</div>"
             }
         }
         txt = txt + "</div>"
     }
-    txt += "<button id='check-answers-button'>Show anwsers</button>"
+    txt += "</br><button id='check-answers-button'>Show anwsers</button>"
     ID("tesztes").innerHTML = txt;
     ID("check-answers-button").addEventListener("click", function() {
+        this.disabled = true
         let element = ID("tesztes");
         element.classList.add("show-answers");
         score = 0;
         answers = document.querySelectorAll('.correct');
-        for (element in answers) {
-            answer = answers[element]
-            if (answer.lastElementChild.checked) {
+        for (index = 0; index < answers.length; index++) {
+            let answer = answers[index]
+            if (answer.querySelector('input').checked) {
                 score += 1
             }
         }
-        alert("Score: " + score)
+        alert("Elért pontszám:" + score +
+            "\n\nSzázalék:" + (score / answers.length * 100).toFixed(2) + "%")
     });
 }
