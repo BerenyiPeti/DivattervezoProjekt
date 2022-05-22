@@ -15,10 +15,12 @@ function $(elem) {
 }
 
 const kepek = [];
+const alkepek = [];
 var kepindex = 0;
 
 function init() {
     beolvas();
+    alkepbeszur();
 
    // kepkivalasztas();
     ID("balra").addEventListener("click", balra);
@@ -29,7 +31,7 @@ function beolvas() {
     fetch("galeria.json")
         .then((response) => response.json())
         .then(data => {
-            console.log(data);
+            //console.log(data);
             console.log(data.kepek);
             beszur(data.kepek);
         })
@@ -58,8 +60,26 @@ function beszur(tomb) {
         //$("#inp img")[index].style.borderRadius="50px";
     }
     megjelenit(0);
+
 }
 
+
+function alkepbeszur() {
+    let altxt = "";
+    for (let index = 0; index < kepek.alkepek.length; index++) {
+        altxt += `<div class="row" >
+        <img id="${index}" src="${alkepek[index].eleres}" alt="${alkepek[index].cim}" ></div>`
+        alkepek.push(altomb[index]);
+    }
+    console.log(alkepek);
+    console.log(altxt);
+
+    CLASS("column").innerHTML = altxt;
+    for (let index = 0; index < alkepek.length ; index++) {
+        ID(index).addEventListener("click", function () { kepkivalasztas(index) });
+    }
+
+}
 
 
 function kepkivalasztas(id) {

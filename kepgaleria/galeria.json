@@ -3,22 +3,24 @@
         {
             "nev": "kep01",
             "eleres": "../kepek/galeria/kep01.jpg",
-            "leiras": "kep01"
-        },
-        {
-            "nev": "kep02",
-            "eleres": "../kepek/galeria/kep02.jpg",
-            "leiras": "kep02"
-        },
-        {
-            "nev": "kep03",
-            "eleres": "../kepek/galeria/kep03.jpg",
-            "leiras": "kep03"
-        },
-        {
-            "nev": "kep04",
-            "eleres": "../kepek/galeria/kep04.jpg",
-            "leiras": "kep04"
+            "leiras": "kep01",
+            "alkepek": [
+            {
+                "nev": "kep02",
+                "eleres": "../kepek/galeria/kep02.jpg",
+                "leiras": "kep02"
+            },
+            {
+                "nev": "kep03",
+                "eleres": "../kepek/galeria/kep03.jpg",
+                "leiras": "kep03"
+            },
+            {
+                "nev": "kep04",
+                "eleres": "../kepek/galeria/kep04.jpg",
+                "leiras": "kep04"
+            }
+        ]
         },
         {
             "nev": "kep05",
@@ -39,6 +41,161 @@
             "nev": "kep08",
             "eleres": "../kepek/galeria/kep08.jpg",
             "leiras": "kep08"
+        },
+        {
+            "nev": "kep09",
+            "eleres": "../kepek/galeria/kep09.jpg",
+            "leiras": "kep09"
+        },
+        {
+            "nev": "kep10",
+            "eleres": "../kepek/galeria/kep10.jpg",
+            "leiras": "kep10"
+        },
+        {
+            "nev": "kep11",
+            "eleres": "../kepek/galeria/kep11.jpg",
+            "leiras": "kep11"
+        },
+        {
+            "nev": "kep12",
+            "eleres": "../kepek/galeria/kep12.jpg",
+            "leiras": "kep12"
+        },
+        {
+            "nev": "kep13",
+            "eleres": "../kepek/galeria/kep13.jpg",
+            "leiras": "kep13"
+        },
+        {
+            "nev": "kep14",
+            "eleres": "../kepek/galeria/kep14.jpg",
+            "leiras": "kep14"
+        },
+        {
+            "nev": "kep15",
+            "eleres": "../kepek/galeria/kep15.jpg",
+            "leiras": "kep15"
+        },
+        {
+            "nev": "kep16",
+            "eleres": "../kepek/galeria/kep16.jpg",
+            "leiras": "kep16"
+        },
+        {
+            "nev": "kep17",
+            "eleres": "../kepek/galeria/kep17.jpg",
+            "leiras": "kep17"
+        },
+        {
+            "nev": "kep18",
+            "eleres": "../kepek/galeria/kep18.jpg",
+            "leiras": "kep08"
+        },
+        {
+            "nev": "kep19",
+            "eleres": "../kepek/galeria/kep19.jpg",
+            "leiras": "kep19"
+        },
+        {
+            "nev": "kep20",
+            "eleres": "../kepek/galeria/kep20.jpg",
+            "leiras": "kep20"
+        },
+        {
+            "nev": "kep21",
+            "eleres": "../kepek/galeria/kep21.jpg",
+            "leiras": "kep21"
+        },
+        {
+            "nev": "kep22",
+            "eleres": "../kepek/galeria/kep22.jpg",
+            "leiras": "kep22"
+        },
+        {
+            "nev": "kep23",
+            "eleres": "../kepek/galeria/kep23.jpg",
+            "leiras": "kep23"
+        },
+        {
+            "nev": "kep24",
+            "eleres": "../kepek/galeria/kep24.jpg",
+            "leiras": "kep24"
+        },
+        {
+            "nev": "kep25",
+            "eleres": "../kepek/galeria/kep25.jpg",
+            "leiras": "kep25"
+        },
+        {
+            "nev": "kep26",
+            "eleres": "../kepek/galeria/kep26.jpg",
+            "leiras": "kep26"
+        },
+        {
+            "nev": "kep27",
+            "eleres": "../kepek/galeria/kep27.jpg",
+            "leiras": "kep27"
+        },
+        {
+            "nev": "kep28",
+            "eleres": "../kepek/galeria/kep28.jpg",
+            "leiras": "kep28"
+        },
+        {
+            "nev": "kep29",
+            "eleres": "../kepek/galeria/kep29.jpg",
+            "leiras": "kep29"
+        },
+        {
+            "nev": "kep30",
+            "eleres": "../kepek/galeria/kep30.jpg",
+            "leiras": "kep30"
+        },
+        {
+            "nev": "kep31",
+            "eleres": "../kepek/galeria/kep31.jpg",
+            "leiras": "kep31"
+        },
+        {
+            "nev": "kep32",
+            "eleres": "../kepek/galeria/kep32.jpg",
+            "leiras": "kep32"
+        },
+        {
+            "nev": "kep33",
+            "eleres": "../kepek/galeria/kep33.jpg",
+            "leiras": "kep33"
+        },
+        {
+            "nev": "kep34",
+            "eleres": "../kepek/galeria/kep34.jpg",
+            "leiras": "kep34"
+        },
+        {
+            "nev": "kep34",
+            "eleres": "../kepek/galeria/kep34.jpg",
+            "leiras": "kep34"
+        },
+        {
+            "nev": "kep35",
+            "eleres": "../kepek/galeria/kep35.jpg",
+            "leiras": "kep35"
+        },
+        {
+            "nev": "kep36",
+            "eleres": "../kepek/galeria/kep36.jpg",
+            "leiras": "kep36"
+        },
+        {
+            "nev": "kep37",
+            "eleres": "../kepek/galeria/kep37.jpg",
+            "leiras": "kep37"
+        },
+        {
+            "nev": "kep38",
+            "eleres": "../kepek/galeria/kep38.jpg",
+            "leiras": "kep38"
         }
 
     ]

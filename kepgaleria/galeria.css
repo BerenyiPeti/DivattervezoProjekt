@@ -1,16 +1,14 @@
 button{
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 main{
     border: 1px solid black;
     margin: auto;
-    max-width: 1000px;
+    max-width: 60%;
     background-color: wheat;
-}
-article img{
-    width: 100%;
 }
 
 #inp img {
@@ -19,6 +17,7 @@ article img{
 
 #kivalasztott {
     border: 1px solid black;
+    width: 100%;
 }
 
 .container{
@@ -27,24 +26,45 @@ article img{
     flex-direction: row;
     justify-content: space-around;
 }
+
+#tartalom{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .contaienr div{
     align-items: center;   
 }
-.kepek{
-    width: 80%;
+
+.row img{
+    border: 1px solid black;
+    margin: 2px;
+    width: 100%;
 }
+
 .gomb{
-    width: 10%;
+    width: 20%;
 }
+
 .galeria img{
     width: 100%;
     padding: 2px;
     border: 1px solid black;
     border-radius: 10px;
 }
+
 section div{
     width: 32%;
 }
+
 section img {
     width: 100%;
 }
@@ -62,6 +82,9 @@ section img {
         border: 1px solid black;
     }
     
+    #kivalasztott {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:300px){
