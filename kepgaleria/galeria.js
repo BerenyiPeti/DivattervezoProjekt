@@ -20,7 +20,7 @@ var kepindex = 0;
 
 function init() {
     beolvas();
-    alkepbeszur();
+    //alkepbeszur();
 
    // kepkivalasztas();
     ID("balra").addEventListener("click", balra);
@@ -64,7 +64,7 @@ function beszur(tomb) {
 }
 
 
-function alkepbeszur() {
+/*function alkepbeszur() {
     let altxt = "";
     for (let index = 0; index < kepek.alkepek.length; index++) {
         altxt += `<div class="row" >
@@ -79,7 +79,7 @@ function alkepbeszur() {
         ID(index).addEventListener("click", function () { kepkivalasztas(index) });
     }
 
-}
+}*/
 
 
 function kepkivalasztas(id) {
