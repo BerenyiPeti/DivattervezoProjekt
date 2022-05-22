@@ -4,26 +4,23 @@
             "nev": "kep01",
             "eleres": "../kepek/galeria/kep01.jpg",
             "leiras": "kep01",
-            "alkepek": {
+            "alkepek": [
+            {
                 "nev": "kep02",
                 "eleres": "../kepek/galeria/kep02.jpg",
                 "leiras": "kep02"
+            },
+            {
+                "nev": "kep03",
+                "eleres": "../kepek/galeria/kep03.jpg",
+                "leiras": "kep03"
+            },
+            {
+                "nev": "kep04",
+                "eleres": "../kepek/galeria/kep04.jpg",
+                "leiras": "kep04"
             }
-        },
-        {
-            "nev": "kep02",
-            "eleres": "../kepek/galeria/kep02.jpg",
-            "leiras": "kep02"
-        },
-        {
-            "nev": "kep03",
-            "eleres": "../kepek/galeria/kep03.jpg",
-            "leiras": "kep03"
-        },
-        {
-            "nev": "kep04",
-            "eleres": "../kepek/galeria/kep04.jpg",
-            "leiras": "kep04"
+        ]
         },
         {
             "nev": "kep05",
@@ -196,9 +193,9 @@
             "leiras": "kep37"
         },
         {
-            "nev": "kep37",
-            "eleres": "../kepek/galeria/kep37.jpg",
-            "leiras": "kep37"
+            "nev": "kep38",
+            "eleres": "../kepek/galeria/kep38.jpg",
+            "leiras": "kep38"
         }
 
     ]

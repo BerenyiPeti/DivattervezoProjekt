@@ -1,5 +1,3 @@
-
-
 button{
     width: 100%;
     height: 100%;
@@ -13,17 +11,13 @@ main{
     background-color: wheat;
 }
 
-article img{
-    width: 100%;
-}
-
-
 #inp img {
     border: 2px solid black;
 }
 
 #kivalasztott {
     border: 1px solid black;
+    width: 100%;
 }
 
 .container{
@@ -50,10 +44,6 @@ article img{
     align-items: center;   
 }
 
-.kepek{
-    
-}
-
 .row img{
     border: 1px solid black;
     margin: 2px;
@@ -61,7 +51,7 @@ article img{
 }
 
 .gomb{
-    width: 10%;
+    width: 20%;
 }
 
 .galeria img{
@@ -92,6 +82,9 @@ section img {
         border: 1px solid black;
     }
     
+    #kivalasztott {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:300px){
