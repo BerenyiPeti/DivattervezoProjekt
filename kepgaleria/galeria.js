@@ -1,6 +1,4 @@
 window.addEventListener("load", init);
-//window.addEventListener("click", galeria);
-
 
 function ID(elem) {
     return document.getElementById(elem);
@@ -8,10 +6,6 @@ function ID(elem) {
 
 function CLASS(elem) {
     return document.getElementsByClassName(elem);
-}
-
-function $(elem) {
-    return document.querySelectorAll(elem);
 }
 
 const kepek = [];
@@ -22,7 +16,7 @@ function init() {
     beolvas();
     //alkepbeszur();
 
-   // kepkivalasztas();
+    // kepkivalasztas();
     ID("balra").addEventListener("click", balra);
     ID("jobbra").addEventListener("click", jobbra);
 }
@@ -31,13 +25,10 @@ function beolvas() {
     fetch("galeria.json")
         .then((response) => response.json())
         .then(data => {
-            //console.log(data);
             console.log(data.kepek);
             beszur(data.kepek);
         })
         .catch((err) => console.log("hiba", err))
-
-
 }
 
 function megjelenit(id) {
@@ -55,14 +46,12 @@ function beszur(tomb) {
     }
 
     ID("inp").innerHTML = txt;
-    for (let index = 0; index < kepek.length ; index++) {
+    for (let index = 0; index < kepek.length; index++) {
         ID(index).addEventListener("click", function () { kepkivalasztas(index) });
         //$("#inp img")[index].style.borderRadius="50px";
     }
     megjelenit(0);
-
 }
-
 
 /*function alkepbeszur() {
     let altxt = "";
@@ -81,12 +70,10 @@ function beszur(tomb) {
 
 }*/
 
-
 function kepkivalasztas(id) {
     console.log(id);
     kepindex = Number(id);
     megjelenit(id);
-
 }
 
 function balra() {
