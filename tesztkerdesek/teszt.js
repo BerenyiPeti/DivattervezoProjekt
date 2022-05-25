@@ -1,20 +1,4 @@
 window.addEventListener("load", init);
-
-function init() {
-    const altsuli = ID("altsuli")
-    const kozsuli = ID("kozsuli")
-    const felnot = ID("felnot")
-    altsuli.addEventListener('click', function() {
-        JsonBeolvas("altsuli")
-    })
-    kozsuli.addEventListener('click', function() {
-        JsonBeolvas("kozsuli")
-    })
-    felnot.addEventListener('click', function() {
-        JsonBeolvas("felnot")
-    })
-}
-
 function ID(elem) {
     return document.getElementById(elem);
 }
@@ -26,20 +10,32 @@ function CLASS(elem) {
 function $(elem) {
     return document.querySelectorAll(elem)
 }
+function callIn(taroloElem, testType) {
+    taroloElem.addEventListener('click', function () {
+        JsonBeolvas(testType)
+    })
+}
 var TesztKerdes = [];
 
+function init() {
+    const ALTSULI = ID("ALTSULI")
+    const KOZSULI = ID("KOZSULI")
+    const FELNOT = ID("FELNOT")
+
+    callIn(ALTSULI, "ALTSULI")
+    callIn(KOZSULI, "KOZSULI")
+    callIn(FELNOT, "FELNOT")
+}
 
 function JsonBeolvas(koroszt) {
-    console.log("Meg jo")
     fetch("kerdesek.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data, koroszt)
             beszur(data[koroszt], TesztKerdes);
 
         })
         .catch((err) => console.log("Beolvasási hiba", err))
-    console.log(TesztKerdes)
+
 }
 
 function beszur(tomb, melyiktomb) {
@@ -57,7 +53,7 @@ function KiirTeszt(lista) {
     lista = lista.sort(() => Math.random() - 0.5);
     for (let i = 0; i < lista.length; i++) {
         var randomvalasz = []
-        randomvalasz = [lista[i].Valaszok1, lista[i].Valaszok2, lista[i].Valaszok3, ]
+        randomvalasz = [lista[i].Valaszok1, lista[i].Valaszok2, lista[i].Valaszok3,]
         randomvalasz = randomvalasz.sort(() => Math.random() - 0.5);
         txt = txt + "<div>" + "<h3>" + lista[i].Kerdesek + "</h3>"
         for (let index = 0; index < randomvalasz.length; index++) {
@@ -72,7 +68,7 @@ function KiirTeszt(lista) {
     txt += "</br><button id='check-answers-button' class='gomb'>Ellenörzés</button>"
     txt += "</br></br><button id='reset' class='gomb'>Újraindítás</button>"
     ID("tesztes").innerHTML = txt;
-    ID("check-answers-button").addEventListener("click", function() {
+    ID("check-answers-button").addEventListener("click", function () {
         this.disabled = true
         let element = ID("tesztes");
         element.classList.add("show-answers");
@@ -88,7 +84,7 @@ function KiirTeszt(lista) {
         alert("Elért pontszám:" + score +
             "\n\nSzázalék:" + (score / answers.length * 100).toFixed(2) + "%")
     });
-    ID("reset").addEventListener("click", function() {
+    ID("reset").addEventListener("click", function () {
         alert("Újraindítás")
         location.reload();
     });
