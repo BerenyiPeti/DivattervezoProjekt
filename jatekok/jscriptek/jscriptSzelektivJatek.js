@@ -1,17 +1,5 @@
 window.addEventListener("load", init)
 
-function ID(elem) {
-    return document.getElementById(elem);
-}
-
-function CLASS(elem) {
-    return document.getElementsByClassName(elem);
-}
-
-function QSA(elem) {
-    return document.querySelectorAll(elem);
-}
-
 const szemetek = [];
 /*let kukak = ["../kepek/jatekok/feherkuka.png","../kepek/jatekok/sargakuka.png", "../kepek/jatekok/zoldkuka.png", "../kepek/jatekok/kekkuka.png"]*/
 let kukak = [

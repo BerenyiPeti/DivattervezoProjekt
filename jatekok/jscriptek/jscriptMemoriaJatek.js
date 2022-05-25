@@ -1,89 +1,4 @@
-/*window.addEventListener("load", init);
-
-function init() {
-    jsonHivas;
-}
-
-function jsonHivas() {
-    fetch("kepek.json")
-        .then((response) => response.json())
-        .then((data) =>{
-            console.log(data);
-            console.log(data.kepek);
-            beszur(data.kepek);
-        })
-        .catch((err) => console.log("hiba", err))
-}
-
-function beszur(kepek) {
-    let txt = "";
-    kepek.array.forEach(element => {
-        txt += "<ul>";
-        for (const key in kepek) {
-            console.log(key, kepek[key]);
-        }
-    });
-}*/
-
 window.addEventListener("load", init)
-
-function ID(elem) {
-    return document.getElementById(elem);
-}
-
-function CLASS(elem) {
-    return document.getElementsByClassName(elem);
-}
-
-function QSA(elem) {
-    return document.querySelectorAll(elem);
-}
-
-
-/*const kepek = [
-    {
-        nev: "kep1",
-        eleres: "../kepek/jatekok/kep0.jpg",
-        id: "0"
-    },
-    {
-        nev: "kep2",
-        eleres: "../kepek/jatekok/kep1.jpg",
-        id: "1"
-    },
-    {
-        nev: "kep3",
-        eleres: "../kepek/jatekok/kep2.jpg",
-        id: "2"
-    },
-    {
-        nev: "kep4",
-        eleres: "../kepek/jatekok/kep3.jpg",
-        id: "3"
-    },
-    {
-        nev: "kep5",
-        eleres: "../kepek/jatekok/kep4.jpg",
-        id: "4"
-    },
-    {
-        nev: "kep6",
-        eleres: "../kepek/jatekok/kep5.jpg",
-        id: "5"
-    },
-    {
-        nev: "kep7",
-        eleres: "../kepek/jatekok/kep6.jpg",
-        id: "6"
-    },
-    {
-        nev: "kep8",
-        eleres: "../kepek/jatekok/kep7.jpg",
-        id: "7"
-    }
-]*/
-
-//var kepek = [];
 
 const kepek = [];
 var kevert = [];
@@ -102,8 +17,8 @@ function init() {
     ID("ujJatekGomb").addEventListener("click", init);
     CLASS("gomb")[0].addEventListener("click", init);
     CLASS("gomb")[0].addEventListener("click", overlayEltuntet);
-    
-    
+
+
 }
 
 
@@ -111,7 +26,7 @@ function init() {
 function jsonHivas() {
     fetch("kepek.json")
         .then((response) => response.json())
-        .then((data) =>{
+        .then((data) => {
             //console.log(data);
             //console.log(data.kepek);
             beszur(data.kepek);
@@ -121,10 +36,10 @@ function jsonHivas() {
 
 function beszur(tomb) {
     tomb.forEach(element => {
-    kepek.push(element)
+        kepek.push(element)
     });
     palya();
-    
+
 }
 
 function felfordit() {
@@ -208,7 +123,7 @@ function palya() {
         ID(index).addEventListener("click", felfordit);
     }
 
-    
+
 
 }
 
